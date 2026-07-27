@@ -1,0 +1,33 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:   # ручной запуск
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Deploy to Cloudflare Pages
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy . --project-name=htdi-by
+
+# Примечание:
+# Для полного деплоя также должны быть настроены Environment Variables
+# в Cloudflare Pages Dashboard:
+#   - ADMIN_PASSWORD
+#   - GITHUB_TOKEN (fine-grained, Contents: Read and write)
+#
+# Подробности — см. DEPLOY.md в корне репозитория.
