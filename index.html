@@ -499,6 +499,20 @@ const KW = {
 // Редакционные материалы HTDI (пусто — только живые RSS)
 const EDITORIAL = [];
 
+const BLOCKED_DOMAINS = ['dev.by'];
+
+function isBlockedNews(item) {
+  const haystack = [
+    item?.url,
+    item?.link,
+    item?.title,
+    item?.source,
+    item?.desc,
+    item?.summary,
+  ].filter(Boolean).join(' ').toLowerCase();
+  return BLOCKED_DOMAINS.some((domain) => haystack.includes(domain));
+}
+
 // SOURCES загружаются из /data/sources.json (для удобства поддержки).
 // Файл data/sources.json содержит тот же список в JSON-формате.
 // При локальной разработке или если файл недоступен — оставляем пустой массив (новости не загрузятся).
@@ -604,7 +618,7 @@ function parseFeedXml(xml, src){
       fullDesc,
       url: link || '#',
     };
-  });
+  }).filter((item) => !isBlockedNews(item));
 }
 
 async function fetchSource(src){
