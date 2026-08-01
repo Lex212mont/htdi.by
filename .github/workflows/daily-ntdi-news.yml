@@ -1,9 +1,9 @@
 name: Daily НТДИ News to Telegram
 
+# Schedule disabled 2026-08-01: duplicate of n8n htdi-morning-briefing → @BELTIME_NEWS.
+# Keep workflow_dispatch for rare manual runs.
 on:
-  schedule:
-    - cron: '30 5 * * *'  # 08:30 MSK (UTC+3)
-  workflow_dispatch:       # manual trigger
+  workflow_dispatch:
 
 jobs:
   post-news:
