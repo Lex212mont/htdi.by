@@ -1,0 +1,27 @@
+name: Update expert-news.json
+
+# Fills htdi.by медиалента (expert-news.json). Does NOT post to @beltime_news.
+on:
+  schedule:
+    - cron: "30 5 * * *"   # 08:30 Europe/Minsk (UTC+3)
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh expert-news.json
+        run: python3 .github/scripts/update_expert_news.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add expert-news.json
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "chore: refresh expert-news.json for медиалента"
+          git push

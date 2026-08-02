@@ -1,91 +1,218 @@
 [
   {
-    "id": "vega-2026-06-02-1",
-    "title": "Беларусь и Приморский край намерены развивать биржевую торговлю",
+    "id": "5621ba827d0f",
+    "title": "Командир Балу: ВС РФ атакуют ВСУ дронами с ИИ, вычисляющими военную форму",
+    "summary": "Военный также рассказал о подвозе провизии, боекомплектов, беспилотных систем для российских бойцов и сообщил, что в сутки для снабжения бывает задействовано не менее семи-восьми машин",
+    "link": "https://tass.ru/armiya-i-opk/27975733",
+    "source": "ТАСС",
+    "date": "2026-08-02",
+    "category": "ru"
+  },
+  {
+    "id": "aa1d3ab9dba4",
+    "title": "Эксперт Бойчевски назвала самые распространенные жанры ИИ-треков",
+    "summary": "Это шансон, поп и рэп, рассказала гендиректор \"ON лейбла\"",
+    "link": "https://tass.ru/obschestvo/27975721",
+    "source": "ТАСС",
+    "date": "2026-08-02",
+    "category": "ru"
+  },
+  {
+    "id": "6c6b0d759b72",
+    "title": "Психолог предупредила о риске зависимости от ИИ",
     "summary": "",
-    "link": "https://belta.by/economics/view/belarus-i-primorskij-kraj-namereny-razvivat-birzhevuju-torgovlju-784143-2026/",
-    "source": "🇧🇾 БЕЛТА",
-    "date": "2026-06-02",
+    "link": "https://ria.ru/20260802/zavisimost-2108505892.html",
+    "source": "РИА",
+    "date": "2026-08-02",
+    "category": "ru"
+  },
+  {
+    "id": "30f1e69d5f08",
+    "title": "Amazon инвестирует $1 млрд в команду инженеров, которые будут выезжать в офис клиентов и внедрять ИИ‑агенты",
+    "summary": "Amazon объявила о&nbsp;планах инвестировать $1&nbsp;млрд в&nbsp;создание новой команды инженеров по&nbsp;искусственному интеллекту AWS Forward Deployed Engineering. Её участники будут выезжать в&nbsp;офисы клиентов, чтобы внедрять системы агентного ИИ за «дни вместо месяцев». …",
+    "link": "https://habr.com/ru/news/1065734/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1065734",
+    "source": "Habr",
+    "date": "2026-08-02",
+    "category": "world"
+  },
+  {
+    "id": "850c03daca2c",
+    "title": "Релиз Microsoft Edge 151",
+    "summary": "В конце июля 2026 года вышла стабильная версия браузера Microsoft Edge 151&nbsp;для&nbsp;Windows 10/11, macOS и Linux. Последнее обновление содержит исправления ошибок, новые политики, патчи безопасности, а&nbsp;также улучшения автозаполнения, блокировщик вредоносного ПО, испр…",
+    "link": "https://habr.com/ru/news/1065598/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1065598",
+    "source": "Habr",
+    "date": "2026-08-02",
+    "category": "world"
+  },
+  {
+    "id": "4af230140205",
+    "title": "OpenAI заявила о 10 математических прорывах: достижения новой модели Astra",
+    "summary": "OpenAI опубликовала исследование, в котором утверждает, что ее внутренняя модель Astra достигла сразу десяти новых результатов в современной математике, включая задачи, которые оставались открытыми на протяжении десятилетий. Компания заявляет, что модель Astra не просто воспро…",
+    "link": "https://habr.com/ru/companies/bothub/news/1065612/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1065612",
+    "source": "Habr",
+    "date": "2026-08-01",
+    "category": "world"
+  },
+  {
+    "id": "a35e9e285442",
+    "title": "Сэм Альтман показал властям США новую модель: OpenAI Astra",
+    "summary": "The Information сообщает, что на этой неделе OpenAI показала в Вашингтоне новую модель. Её назвали Astra. Компания пока не решила, станет ли Astra стартом линейки GPT-6 или выйдет как дополнительная модель в серии GPT-5, например, GPT-5.7. Читать далее",
+    "link": "https://habr.com/ru/companies/bothub/news/1065574/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1065574",
+    "source": "Habr",
+    "date": "2026-08-01",
+    "category": "world"
+  },
+  {
+    "id": "10114ca1d78f",
+    "title": "Google DeepMind представила Gemini Robotics ER 2 — модель для физического ИИ",
+    "summary": "Google DeepMind выпустила Gemini Robotics ER 2 — новую модель для робототехники, которую компания называет своим самым продвинутым embodied reasoning-решением. ER 2 предназначена для высокоуровневого планирования, работы с непрерывными видеопотоками и координации нескольких ро…",
+    "link": "https://habr.com/ru/companies/bothub/news/1065558/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1065558",
+    "source": "Habr",
+    "date": "2026-08-01",
+    "category": "world"
+  },
+  {
+    "id": "e1e13016719b",
+    "title": "Большинство работодателей и сотрудников положительно относятся к применению ИИ в работе — исследование",
+    "summary": "Сервисы «Работа.ру», «СберПодбор» и образовательная компания «Нетология» представили результаты исследования...",
+    "link": "https://www.cnews.ru/news/line/2026-07-31_bolshinstvo_rabotodatelej",
+    "source": "CNews",
+    "date": "2026-07-31",
+    "category": "ru"
+  },
+  {
+    "id": "7e1a66454c77",
+    "title": "Россия открывает доступ к новому квантовому компьютеру на сверхпроводниках",
+    "summary": "Российские ученые через облачную платформу запускают бета-тестирование нового 8-кубитного квантового процессора. Усовершенствовав его архитектуру, разработчикам удалось поднять точность вычислений до 99,55% с перспективой приблизить ее к 100%.",
+    "link": "https://www.cnews.ru/news/top/2026-07-31_v_rossii_otkrylsya_oblachnyj",
+    "source": "CNews",
+    "date": "2026-07-31",
+    "category": "ru"
+  },
+  {
+    "id": "dbcf29fe4a7b",
+    "title": "ИИ упростит малому бизнесу Нижнего Новгорода работу с клиентами",
+    "summary": "МТС запустила функцию обмена аудиозаписями, саммари и расшифровкой в сервисе «МТС Optimus». Решение поможет предпринимателям...",
+    "link": "https://www.cnews.ru/news/line/2026-07-31_ii_uprostit_malomu_biznesu",
+    "source": "CNews",
+    "date": "2026-07-31",
+    "category": "ru"
+  },
+  {
+    "id": "c08832087736",
+    "title": "Авторитетный разработчик Microsoft: «Макбуки» отстой, перепишу им софт, чтобы было как в Windows",
+    "summary": "Бывший программист Microsoft Дэйв Пламмер, ответственный за множество встроенных «фишек» Windows, раскритиковал «Мониторинг системы» в macOS. Эта утилита позволяет следить, какие приложения расходуют много системных ресурсов, и отключать их. По его мнению, она работает плохо, …",
+    "link": "https://www.cnews.ru/news/top/2026-07-30_avtoritetnyj_razrabotchik",
+    "source": "CNews",
+    "date": "2026-07-31",
+    "category": "ru"
+  },
+  {
+    "id": "829104db5593",
+    "title": "«Сбер» открыл доступ к библиотеке SIRIN для поиска ошибок в ответах нейросетей",
+    "summary": "Команда ученых центра практического искусственного интеллекта Сбербанка опубликовала в открытом доступе библиотеку...",
+    "link": "https://www.cnews.ru/news/line/2026-07-31_sber_otkryl_dostup_k_biblioteke",
+    "source": "CNews",
+    "date": "2026-07-31",
+    "category": "ru"
+  },
+  {
+    "id": "5914be5ba973",
+    "title": "Новый высокопроизводительный квантовый сопроцессор SnowDrop 8Q в облаке Bauman Octillion",
+    "summary": "С 1 по 20 августа 2026 г. в облачной платформе квантовых вычислений Bauman Octillion для онлайн-экспериментов будет доступен...",
+    "link": "https://www.cnews.ru/news/line/2026-07-31_novyj_vysokoproizvoditelnyj",
+    "source": "CNews",
+    "date": "2026-07-31",
+    "category": "ru"
+  },
+  {
+    "id": "c0e97c93126b",
+    "title": "«Солар»: ИИ-сервисы стали в два раза уязвимее",
+    "summary": "Во II квартале 2026 г. рост числа веб-уязвимостей по сравнению с предыдущим периодом составил 60%. Ключевым драйвером...",
+    "link": "https://www.cnews.ru/news/line/2026-07-31_solar_ii-servisy_stali",
+    "source": "CNews",
+    "date": "2026-07-31",
+    "category": "ru"
+  },
+  {
+    "id": "5e02a90a8cc3",
+    "title": "МФТИ и ЕВРАЗ открывают программу по цифровым технологиям и искусственному интеллекту для инженеров-проектировщиков",
+    "summary": "Московский физико-технический институт (МФТИ) и специалисты EVRAZ STEEL разработали совместную образовательную программу...",
+    "link": "https://www.cnews.ru/news/line/2026-07-31_mfti_i_evraz_otkryvayut_programmu",
+    "source": "CNews",
+    "date": "2026-07-31",
+    "category": "ru"
+  },
+  {
+    "id": "20f1731bb45c",
+    "title": "В LinkedIn появилась кнопка для жалоб на нейрослоп",
+    "summary": "Пользователи LinkedIn смогут пожаловаться на&nbsp;некачественные публикации, сгенерированные ИИ. Для&nbsp;этого в&nbsp;список реакций к&nbsp;посту добавили кнопку Seems like AI slop («Похоже на&nbsp;ИИ‑слоп»), с&nbsp;помощью которой можно отметить подозрительный контент и скры…",
+    "link": "https://habr.com/ru/news/1065352/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1065352",
+    "source": "Habr",
+    "date": "2026-07-31",
+    "category": "world"
+  },
+  {
+    "id": "4756dad727d4",
+    "title": "Anthropic нашла три случая, когда Claude получил интернет в тестах и атаковал реальные компании",
+    "summary": "Anthropic сообщила, что при повторной проверке своих cybersecurity-evals обнаружила три инцидента, в которых модель Claude получила доступ к интернету из тестовой среды и затем несанкционированно проникла в реальные системы трех разных организаций. Компания поясняет, что перес…",
+    "link": "https://habr.com/ru/companies/bothub/news/1065366/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1065366",
+    "source": "Habr",
+    "date": "2026-07-31",
+    "category": "world"
+  },
+  {
+    "id": "a3a662910ba7",
+    "title": "СМИ: Nvidia подняла цены на комплекты GPU+VRAM на 30%, AMD — на 10%",
+    "summary": "Nvidia повышает цены на&nbsp;свои комплекты GPU+VRAM на 20–30%. По данным тайваньского издания Economic Daily News, подорожание коснётся как&nbsp;GDDR6, так и GDDR7, и будет уже третьим с&nbsp;начала года. При&nbsp;этом, по&nbsp;данным инсайдеров, сразу после Nvidia цены повыс…",
+    "link": "https://habr.com/ru/news/1065346/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1065346",
+    "source": "Habr",
+    "date": "2026-07-31",
+    "category": "world"
+  },
+  {
+    "id": "d533c57f8ee8",
+    "title": "3000 школьников Гомеля посетили онлайн-урок Life по кибербезопасности",
+    "summary": "3000 школьников Гомеля посетили онлайн-урок Life по кибербезопасности editor пн, 07/27/2026 - 16:27 22 июля цифровой оператор Life провёл масштабный онлайн-урок по кибербезопасности. К занятию одновременно присоединились более 3000 учащихся из более 60 школ Гомеля. Life продол…",
+    "link": "https://mpt.gov.by/ru/3000-shkolnikov-gomelya-posetili-onlayn-urok-life-po-kiberbezopasnosti",
+    "source": "Минцифры BY",
+    "date": "2026-07-27",
     "category": "by"
   },
   {
-    "id": "vega-2026-06-02-3",
-    "title": "Гайд по GEO/AEO на 2026 год. Как попасть в ИИ-ответы нейросетей: ChatGpt, Алиса AI, Perplexity, DeepSeek и прочих",
-    "summary": "",
-    "link": "https://habr.com/ru/articles/1042732/?utm_campaign=1042732&utm_source=habrahabr&utm_medium=rss",
-    "source": "🤖 Habr ИИ",
-    "date": "2026-06-02",
+    "id": "71a97bb2981b",
+    "title": "Получили электронный документ с ЭЦП? Теперь проверить его подлинность можно онлайн",
+    "summary": "Получили электронный документ с ЭЦП? Теперь проверить его подлинность можно онлайн editor пн, 07/27/2026 - 14:16 🔐 Получили электронный документ с ЭЦП? Теперь проверить его подлинность можно онлайн Национальный центр электронных услуг запустил сервис, который позволяет быстро …",
+    "link": "https://mpt.gov.by/ru/poluchili-elektronnyy-dokument-s-ecp-teper-proverit-ego-podlinnost-mozhno-onlayn",
+    "source": "Минцифры BY",
+    "date": "2026-07-27",
+    "category": "by"
+  },
+  {
+    "id": "0600a7ef80a9",
+    "title": "Оперативность, аналитика и ИИ. Какие новшества ожидают сервисы для обращений граждан, рассказала замминистра",
+    "summary": "Оперативность, аналитика и ИИ. Какие новшества ожидают сервисы для обращений граждан, рассказала замминистра editor пн, 07/27/2026 - 12:09 Ссылка на источник https://dzr.by/27072026/operativnost-analitika-i-ii-kakie-novshestva-ozhidayut-servisy-dlya-obrashhenij-grazhdan-rasska…",
+    "link": "https://mpt.gov.by/ru/operativnost-analitika-i-ii-kakie-novshestva-ozhidayut-servisy-dlya-obrascheniy-grazhdan-0",
+    "source": "Минцифры BY",
+    "date": "2026-07-27",
+    "category": "by"
+  },
+  {
+    "id": "2710c723a4c1",
+    "title": "Оперативность, аналитика и ИИ. Какие новшества ожидают сервисы для обращений граждан, рассказала замминистра",
+    "summary": "Оперативность, аналитика и ИИ. Какие новшества ожидают сервисы для обращений граждан, рассказала замминистра editor пн, 07/27/2026 - 09:37 Эффективность взаимодействия власти с населением во многом можно оценить по показателю работы с обращениями граждан. Способов донесения св…",
+    "link": "https://mpt.gov.by/ru/operativnost-analitika-i-ii-kakie-novshestva-ozhidayut-servisy-dlya-obrascheniy-grazhdan-rasskazala",
+    "source": "Минцифры BY",
+    "date": "2026-07-27",
+    "category": "by"
+  },
+  {
+    "id": "cb6847517e34",
+    "title": "Лев Матвеев: ProfileCenter выдает руководителю готовый список кадрового резерва",
+    "summary": "Председатель совета директоров «СёрчИнформ» Лев Матвеев рассказал Anti-Malware.ru, как технологии профайлинга помогают бизнесу, почему рынок готов к аутсорсингу информационной безопасности, каких успехов удалось добиться компании в прошлом году, а также рассказал про новый про…",
+    "link": "https://www.anti-malware.ru/interviews/2019-03-21/29208",
+    "source": "Anti-Malware",
+    "date": "2019-03-21",
     "category": "ru"
-  },
-  {
-    "id": "vega-2026-06-02-4",
-    "title": "Отношения с США, санкции и \"подзуживание\" Лондона. Заявления российского дипломата",
-    "summary": "",
-    "link": "https://tass.ru/politika/27615987",
-    "source": "🇷🇺 ТАСС",
-    "date": "2026-06-02",
-    "category": "ru"
-  },
-  {
-    "id": "vega-2026-06-02-5",
-    "title": "La Floride traîne OpenAI en justice pour avoir minimisé les risques de ChatGPT",
-    "summary": "",
-    "link": "https://www.numerama.com/tech/2264939-la-floride-traine-openai-en-justice-pour-avoir-minimise-les-risques-de-chatgpt.html",
-    "source": "🇫🇷 Numerama",
-    "date": "2026-06-02",
-    "category": "ai"
-  },
-  {
-    "id": "vega-2026-06-02-6",
-    "title": "Florida lawsuit accuses OpenAI of ignoring safety warnings and putting children at risk",
-    "summary": "",
-    "link": "https://www.theguardian.com/technology/2026/jun/01/florida-lawsuit-openai-sam-altman",
-    "source": "🇬🇧 The Guardian",
-    "date": "2026-06-02",
-    "category": "ai"
-  },
-  {
-    "id": "vega-2026-06-02-7",
-    "title": "Carnival data breach hits nearly 6 million customers - USA Today",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObk5iMFN5STg2RWpqRjM1WXB3VGU4QjIxX2w4UnJ2Sjh6Z2phNWhLTlZmRkU4UVBMTnVqRUl6dDhRNzZqcy1RV2Z3YzZ0SGVnalYyS09PZHlxQXNoMHdvZmt0X3BSRWFuY0Jway1mWHA4eS10M0RtSEgzRHdsSGNhakNnTGVzSHpSY0tLWlZZU3pja1JfbUwtRzdiWHZJeVhTR181YmFqMA?oc=5",
-    "source": "🌍 Google News Cyber",
-    "date": "2026-06-02",
-    "category": "cyber"
-  },
-  {
-    "id": "vega-2026-06-02-8",
-    "title": "Exclusive: How One Line of Code Put Billions of Microsoft Android App Downloads at Risk",
-    "summary": "",
-    "link": "https://www.securityweek.com/exclusive-how-one-line-of-code-put-billions-of-microsoft-android-app-downloads-at-risk/",
-    "source": "🇺🇸 SecurityWeek",
-    "date": "2026-06-02",
-    "category": "cyber"
-  },
-  {
-    "id": "vega-2026-06-02-9",
-    "title": "«Ростелеком» запустил новый дата-центр для «Т-Мобайл» в Ростове-на-Дону",
-    "summary": "",
-    "link": "https://www.cnews.ru/news/line/2026-06-02_rostelekom_zapustil_novyj",
-    "source": "🇷🇺 CNews",
-    "date": "2026-06-02",
-    "category": "infra"
-  },
-  {
-    "id": "vega-2026-06-02-10",
-    "title": "„Es braucht einen Mind-Shift“: Greenpeace fordert mehr Ethik bei Cloud-Anbietern",
-    "summary": "",
-    "link": "https://t3n.de/news/es-braucht-einen-mind-shift-greenpeace-fordert-mehr-ethik-bei-cloud-anbietern-1745262/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-    "source": "🇩🇪 t3n",
-    "date": "2026-06-02",
-    "category": "infra"
-  },
-  {
-    "id": "example-1",
-    "title": "НТДИ: старт нового партнёрства в сфере цифровой инфраструктуры",
-    "summary": "Ассоциация высоких технологий и цифровой инфраструктуры подписала соглашение о сотрудничестве с ведущими игроками рынка.",
-    "link": "https://htdi.by",
-    "source": "НТДИ",
-    "date": "2026-05-21"
   }
 ]
