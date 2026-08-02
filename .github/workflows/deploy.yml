@@ -1,9 +1,10 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to Cloudflare Pages (manual backup)
+
+# Primary deploy: Cloudflare Git integration on push to main
+# (project htdi-news ← Lex212mont/htdi.by). Use this only if Git deploy is broken.
 
 on:
-  push:
-    branches: [ main ]
-  workflow_dispatch:   # ручной запуск
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -22,12 +23,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy . --project-name=htdi-by
-
-# Примечание:
-# Для полного деплоя также должны быть настроены Environment Variables
-# в Cloudflare Pages Dashboard:
-#   - ADMIN_PASSWORD
-#   - GITHUB_TOKEN (fine-grained, Contents: Read and write)
-#
-# Подробности — см. DEPLOY.md в корне репозитория.
+          command: pages deploy . --project-name=htdi-news
