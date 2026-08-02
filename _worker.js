@@ -67,20 +67,27 @@ export default {
     // ── GET /api/expert-news — читаем expert-news.json из GitHub ──
     if (url.pathname === '/api/expert-news' && request.method === 'GET') {
       try {
+        const bust = Date.now();
         const ghResp = await fetch(
-          'https://api.github.com/repos/Lex212mont/htdi.by/contents/expert-news.json',
-          { headers: { 'User-Agent': 'htdi-by-worker', 'Accept': 'application/vnd.github+json' } }
+          `https://raw.githubusercontent.com/Lex212mont/htdi.by/main/expert-news.json?t=${bust}`,
+          {
+            headers: { 'User-Agent': 'htdi-by-worker', 'Accept': 'application/json' },
+            cf: { cacheTtl: 60, cacheEverything: false },
+          }
         );
-        if (!ghResp.ok) throw new Error(`GitHub ${ghResp.status}`);
-        const data = await ghResp.json();
-        // Правильное декодирование UTF-8 из base64 (исправляет кракозябры в кириллице)
-        const binaryStr = atob(data.content.replace(/\n/g, ''));
-        const bytes = Uint8Array.from(binaryStr, c => c.charCodeAt(0));
-        const content = new TextDecoder('utf-8').decode(bytes);
+        if (!ghResp.ok) throw new Error(`GitHub raw ${ghResp.status}`);
+        const content = await ghResp.text();
         let items = [];
         try { items = JSON.parse(content); } catch { items = []; }
         const filtered = filterNewsItems(items);
-        return new Response(JSON.stringify(filtered), { status: 200, headers: { ...CORS, 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'public, s-maxage=300, max-age=60, stale-while-revalidate=3600' } });
+        return new Response(JSON.stringify(filtered), {
+          status: 200,
+          headers: {
+            ...CORS,
+            'Content-Type': 'application/json; charset=utf-8',
+            'Cache-Control': 'public, max-age=60, s-maxage=60, stale-while-revalidate=300',
+          },
+        });
       } catch (e) {
         return new Response(JSON.stringify([]), { status: 200, headers: { ...CORS, 'Content-Type': 'application/json' } });
       }
