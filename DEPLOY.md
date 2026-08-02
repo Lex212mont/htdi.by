@@ -1,18 +1,16 @@
 # Deployment Guide — HTDI.by
 
-## Канон (порядок)
+## Канон
 
 | Что | Значение |
 |-----|----------|
-| **Править / пушить** | только **`Lex212mont/htdi.by`** (`main`) |
+| Репозиторий | **`Lex212mont/htdi.by`** (`main`) |
 | Cloudflare Pages | проект **`htdi-news`** |
 | Домены | `htdi.by`, `www.htdi.by` |
 | Account ID | `188d8d792aabe0caf22fd04e414a9920` |
-| **Деплой** | `./scripts/deploy-htdi.sh` |
+| Деплой | **`git push origin main`** → CF Git auto-build |
 
-Скрипт: пушит `htdi.by` и зеркалит в **`Lex212mont/htd.by`** (`master`) — от него CF ещё собирает, пока GitHub App Cloudflare не получит доступ к `htdi.by`.
-
-**Архив:** `htd.by` / старый `htdi-news` — не править руками.
+Архив `Lex212mont/htd.by` — не трогать.
 
 Стек: статика + `_worker.js`. `/api/expert-news` читает `expert-news.json` с GitHub raw (`Lex212mont/htdi.by`).
 
@@ -20,16 +18,10 @@
 
 ```bash
 cd /Users/lex/Projects/htdi.by
-# …правки, commit…
-./scripts/deploy-htdi.sh
+# правки → commit
+git push origin main
 curl -sS https://htdi.by/api/expert-news | python3 -c 'import sys,json; print(len(json.load(sys.stdin)))'
 ```
-
-## Когда станет совсем чисто
-
-1. GitHub → Settings → Applications → **Cloudflare Pages** → Repository access → добавить **`htdi.by`**.
-2. CF → htdi-news → Settings → Builds → Disconnect → Connect **`Lex212mont/htdi.by`**, branch **`main`**.
-3. Тогда достаточно `git push origin main`; скрипт-зеркало можно убрать.
 
 ## Переменные Cloudflare Pages
 
@@ -38,20 +30,21 @@ Dashboard → **htdi-news** → Settings → Variables (Production + Preview):
 | Variable | Назначение |
 |----------|------------|
 | `ADMIN_PASSWORD` | админ-форма |
-| `GITHUB_TOKEN` | fine-grained PAT на `Lex212mont/htdi.by` (Contents R/W), если форма пишет в репо |
+| `GITHUB_TOKEN` | fine-grained PAT на `Lex212mont/htdi.by` (Contents R/W) |
 
-## Workflows в `htdi.by`
+## Workflows
 
 | Файл | Роль |
 |------|------|
-| `update-expert-news.yml` | обновление `expert-news.json` (без Telegram) |
+| *(CF Git)* | основной деплой при push в `main` |
 | `deploy.yml` | ручной wrangler backup → `--project-name=htdi-news` |
+| `update-expert-news.yml` | обновление `expert-news.json` (без Telegram) |
 | `daily-ntdi-news.yml` | legacy TG, только dispatch |
 
 ## Troubleshooting
 
-- Старые новости → забыли `./scripts/deploy-htdi.sh` (пушнули только в `htdi.by`).
-- Wrangler 10000 → битый `CLOUDFLARE_API_TOKEN`; основной путь — Git через зеркало, не wrangler.
-- Project name всегда **`htdi-news`**, не `htdi-by`.
+- Старые новости → CF не на `htdi.by`: Settings → Builds → Connect `Lex212mont/htdi.by`, branch `main`.
+- Wrangler 10000 → битый токен; основной путь — Git, не wrangler.
+- Project name: **`htdi-news`**, не `htdi-by`.
 
 Обновлено: 2026-08-02
