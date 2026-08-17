@@ -1,90 +1,90 @@
 [
   {
-    "id": "4d66cb844fc1",
-    "title": "Эксперт Полунин перечислил признаки взлома смартфона",
-    "summary": "О возможном заражении устройства шпионским программным обеспечением могут свидетельствовать перегрев телефона в режиме ожидания или резкое увеличение расхода батареи, уточнил руководитель группы защиты инфраструктурных ИТ-решений компании \"Газинформсервис\"",
-    "link": "https://tass.ru/obschestvo/28016379",
+    "id": "a2df11de3e15",
+    "title": "Онищенко считает важным соблюдать баланс при использовании ИИ школьниками",
+    "summary": "Нейросети могут приносить пользу, однако частое применение искусственного интеллекта не дает ученикам развиваться, анализировать и подключать воображение, отметил заместитель президента Российской академии образования",
+    "link": "https://tass.ru/obschestvo/28017555",
     "source": "ТАСС",
-    "date": "2026-08-16",
+    "date": "2026-08-17",
     "category": "ru"
   },
   {
-    "id": "b320a95fca6b",
-    "title": "Глава Курчатовского института назвал главное препятствие для развития ИИ",
+    "id": "d553b5a07987",
+    "title": "Российские ученые создали тренажер на основе ИИ для борьбы с фобиями",
     "summary": "",
-    "link": "https://ria.ru/20260816/ii-2111170320.html",
+    "link": "https://ria.ru/20260817/trenazher-2111262194.html",
     "source": "РИА",
-    "date": "2026-08-16",
+    "date": "2026-08-17",
     "category": "ru"
+  },
+  {
+    "id": "2c6fd0d1aa3b",
+    "title": "Stripe приобрела ИИ‑стартап OpenRouter",
+    "summary": "По&nbsp;данным Bloomberg, компания Stripe завершила сделку по&nbsp;приобретению OpenRouter. Сумма сделки составила $7&nbsp;млрд. Читать далее",
+    "link": "https://habr.com/ru/news/1071038/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1071038",
+    "source": "Habr",
+    "date": "2026-08-17",
+    "category": "world"
+  },
+  {
+    "id": "ba3138ddfd61",
+    "title": "Microsoft удалит утилиту командной строки WMIC из Windows 11 26H2",
+    "summary": "Microsoft объявила о&nbsp;прекращении поддержки утилиты WMIC (Windows Management Instrumentation Command‑line) несколько лет назад, а&nbsp;теперь официально подтвердила, что&nbsp;удалит её в&nbsp;следующем обновлении функций для&nbsp;Windows 11. Читать далее",
+    "link": "https://habr.com/ru/news/1071032/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1071032",
+    "source": "Habr",
+    "date": "2026-08-17",
+    "category": "world"
+  },
+  {
+    "id": "adba64625e7b",
+    "title": "Time: управляющая магазином нейросеть Claude впервые уволила сотрудника, но её к этому подтолкнули",
+    "summary": "В&nbsp;начале этого года стартап Andon Labs, занимающийся разработкой искусственного интеллекта, решил выяснить, смогут&nbsp;ли ИИ‑агенты успешно управлять бизнесом. Исследователи доверили модели искусственного интеллекта Claude управлять магазином Andon Market в Сан-Франциско…",
+    "link": "https://habr.com/ru/news/1070924/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070924",
+    "source": "Habr",
+    "date": "2026-08-16",
+    "category": "world"
+  },
+  {
+    "id": "99b81c9a2500",
+    "title": "Экс‑инженер Microsoft разрабатывает DayFrame — модульный конкурент Outlook",
+    "summary": "Бывший инженер Microsoft разрабатывает DayFrame&nbsp;— модульный конкурент Outlook, возрождающий живые плитки в&nbsp;стиле Windows, пишет Neowin. Читать далее",
+    "link": "https://habr.com/ru/news/1070922/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070922",
+    "source": "Habr",
+    "date": "2026-08-16",
+    "category": "world"
+  },
+  {
+    "id": "5b617f0e60d9",
+    "title": "Microsoft предупредила, что осталось 60 дней до прекращения поддержки Windows 10 Enterprise LTSB 2016 и других версий ОС",
+    "summary": "Microsoft предупредила пользователей, что&nbsp;поддержка&nbsp;Windows 11 24H2&nbsp;редакций Home и Pro, Windows 10&nbsp;Enterprise LTSB 2016&nbsp;и Windows Server 2022&nbsp;прекратится 13&nbsp;октября 2026&nbsp;года. Эти версии операционной системы перестанут получать исправле…",
+    "link": "https://habr.com/ru/news/1070918/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070918",
+    "source": "Habr",
+    "date": "2026-08-16",
+    "category": "world"
+  },
+  {
+    "id": "baa47f08d4da",
+    "title": "На автомагистралях Калифорнии стартовали испытания беспилотных грузовиков",
+    "summary": "Компании в&nbsp;сфере беспилотных грузовиков Aurora Innovation и Kodiak AI получили разрешение Департамента транспортных средств Калифорнии (DMV) на&nbsp;тестирование своих технологий автономного вождения на&nbsp;дорогах общего пользования западного штата. Читать далее",
+    "link": "https://habr.com/ru/news/1070890/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070890",
+    "source": "Habr",
+    "date": "2026-08-16",
+    "category": "world"
+  },
+  {
+    "id": "0ce0ea0327f8",
+    "title": "Исследование: ИИ повышает продуктивность работников неравномерно",
+    "summary": "Специалисты из&nbsp;Калифорнийского университета в&nbsp;Беркли, Гарварда и Колумбийского университета в&nbsp;течение шести месяцев наблюдали за&nbsp;работой владельцев малого бизнеса в&nbsp;Кении, которым дали доступ к&nbsp;ИИ‑советнику на&nbsp;базе GPT-4. Выяснилось, что&nbsp…",
+    "link": "https://habr.com/ru/news/1070852/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070852",
+    "source": "Habr",
+    "date": "2026-08-16",
+    "category": "world"
   },
   {
     "id": "ae80a1eba3c3",
     "title": "OpenAI заменила Chronicle на Computer History в ChatGPT для Mac",
     "summary": "OpenAI запускает Computer History — новую систему, которая позволяет ChatGPT и Codex учитывать недавнюю активность пользователя на компьютере. Она пришла на смену исследовательскому прототипу Chronicle. Систему переработали. Главное техническое отличие — способ сбора данных. C…",
     "link": "https://habr.com/ru/companies/bothub/news/1070828/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070828",
-    "source": "Habr",
-    "date": "2026-08-15",
-    "category": "world"
-  },
-  {
-    "id": "064960a8d73a",
-    "title": "Телеканал PBS опасается потери 50 ТБ данных после завершения обслуживания облачным провайдером",
-    "summary": "Американский телеканал PBS подал иск против компании Iron Mountain Data Centers, чтобы восстановить доступ к 50&nbsp;ТБ данных, включая телепередачи, видео и другие материалы за 70&nbsp;лет. Филиал Nine PBS указал, что&nbsp;провайдер облачного хранилища Open Source Storage исп…",
-    "link": "https://habr.com/ru/news/1070788/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070788",
-    "source": "Habr",
-    "date": "2026-08-15",
-    "category": "world"
-  },
-  {
-    "id": "02d3a6184211",
-    "title": "NVIDIA подняла цену RTX PRO 6000 Blackwell до 16 тысяч долларов",
-    "summary": "Дефицит памяти и бум искусственного интеллекта продолжают разгонять цены на железо. Флагманская видеокарта NVIDIA RTX PRO™ 6000 Blackwell Workstation Edition в официальном магазине компании подорожала до 16 000 $ — это на 21% больше, чем еще в июне, и более чем вдвое выше перв…",
-    "link": "https://habr.com/ru/companies/selectel/news/1070566/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070566",
-    "source": "Habr",
-    "date": "2026-08-15",
-    "category": "world"
-  },
-  {
-    "id": "a8986cfd66af",
-    "title": "Google позволит пользователям удалять видимые водяные знаки из результатов работы Gemini",
-    "summary": "Google позволит пользователям удалять видимые водяные знаки из&nbsp;результатов генерации искусственного интеллекта Gemini, включая изображения, видео и песни. Об&nbsp;этом в&nbsp;социальной сети X рассказал вице‑президент компании по&nbsp;Gemini Джош Вудворд. Читать далее",
-    "link": "https://habr.com/ru/news/1070778/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070778",
-    "source": "Habr",
-    "date": "2026-08-15",
-    "category": "world"
-  },
-  {
-    "id": "4b59b6d793cb",
-    "title": "Microsoft прекратит поддержку функции Copilot в Excel",
-    "summary": "Год назад Microsoft начала тестирование функции COPILOT() в&nbsp;Excel, которая позволяла пользователям описывать&nbsp;желаемый результат текстом, а&nbsp;ИИ генерировал его. Теперь компания решила отказаться от&nbsp;опции после тестирования с&nbsp;пользователями Frontier и Ins…",
-    "link": "https://habr.com/ru/news/1070764/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070764",
-    "source": "Habr",
-    "date": "2026-08-15",
-    "category": "world"
-  },
-  {
-    "id": "50780730c4bd",
-    "title": "Исследователь обклеил машину специальной плёнкой для борьбы с отслеживанием камер Flock",
-    "summary": "В&nbsp;рамках кампании по&nbsp;борьбе с&nbsp;умными камерами видеонаблюдения Flock жители США придумывают новые изощренные способы. Исследователь кибербезопасности Билл Сверинген разработал специальный компьютерный рисунок на&nbsp;плёнке, который защищает автомобиль от&nbsp;от…",
-    "link": "https://habr.com/ru/news/1070760/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070760",
-    "source": "Habr",
-    "date": "2026-08-15",
-    "category": "world"
-  },
-  {
-    "id": "4bdedb600762",
-    "title": "Зона ai впервые обогнала com по средней цене домена",
-    "summary": "Индекс инвестиций в&nbsp;домены Escrow.com за&nbsp;второй квартал 2026&nbsp;года показывает , что&nbsp;сумма сделок с&nbsp;доменами.ai достигла $37,7&nbsp;млн ​​&nbsp;— это исторический максимум для&nbsp;данной зоны. Рост продаж составил 270% за&nbsp;три месяца. Читать далее",
-    "link": "https://habr.com/ru/news/1070756/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070756",
-    "source": "Habr",
-    "date": "2026-08-15",
-    "category": "world"
-  },
-  {
-    "id": "58cc9bfca527",
-    "title": "В «Яндекс Музыке» сообщили о планах маркировать ИИ-треки на платформе",
-    "summary": "В «Яндекс Музыке» сообщили СМИ, что администрация платформы планирует информировать пользователей о том, использовался ли искусственный интеллект при создании музыкальных произведений. В сервисе пока не будут разделять музыкальный каталог на обычные треки и созданные ИИ. Решен…",
-    "link": "https://habr.com/ru/news/1070720/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070720",
     "source": "Habr",
     "date": "2026-08-15",
     "category": "world"
