@@ -1,36 +1,81 @@
 [
   {
-    "id": "27fe387e2098",
-    "title": "NVIDIA выпустила PAIR — виртуальный маршрутизатор локального инференса для домашних ПК",
-    "summary": "NVIDIA представила открытый инструмент NVIDIA PAIR ® (Personal AI Router ® ), распространяемый по лицензии Apache 2.0. Разработка предназначена для балансировки и маршрутизации запросов на инференс больших языковых моделей между компьютерами в рамках единой локальной сети. По …",
-    "link": "https://habr.com/ru/companies/selectel/news/1078630/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078630",
+    "id": "6c6f10f7b30e",
+    "title": "Власти Китая впервые одобрили лекарство, созданное при участии ИИ",
+    "summary": "",
+    "link": "https://ria.ru/20260906/kitaj-2115828987.html",
+    "source": "РИА",
+    "date": "2026-09-06",
+    "category": "ru"
+  },
+  {
+    "id": "a08fbfcd408a",
+    "title": "The Seattle Times и Newsday подали в суд на OpenAI и Microsoft",
+    "summary": "Ещё два издательства подали в&nbsp;суд на&nbsp;OpenAI и Microsoft. The Seattle Times и Newsday обвинили компании в&nbsp;обучении моделей искусственного интеллекта на&nbsp;журналистских материалах без&nbsp;разрешения и компенсации. Читать далее",
+    "link": "https://habr.com/ru/news/1078922/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078922",
+    "source": "Habr",
+    "date": "2026-09-06",
+    "category": "world"
+  },
+  {
+    "id": "121511ae42ac",
+    "title": "Microsoft введёт временные лимиты для облачного гейминга Xbox",
+    "summary": "Microsoft объявила о&nbsp;введении временных&nbsp;лимитов для&nbsp;облачного гейминга Xbox. Вместо неограниченного стриминга подписчики получат фиксированное количество часов в&nbsp;зависимости от&nbsp;уровня подписки Game Pass. Изменения вступят в&nbsp;силу в&nbsp;ноябре. Чит…",
+    "link": "https://habr.com/ru/news/1078920/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078920",
+    "source": "Habr",
+    "date": "2026-09-06",
+    "category": "world"
+  },
+  {
+    "id": "c44d83970d5a",
+    "title": "Брюс Перенс заявил: только патенты могут спасти Open Source",
+    "summary": "В OSI License-discuss автор определения Open Source и один из сооснователей самой OSI (Open Source Initiative) Брюс Перенс заявил, что не знает лицензий для открытого ПО, способных защитить код от ИИ. Сам Перенс уже имеет 46 патентов и считает их единственным способом спасения…",
+    "link": "https://habr.com/ru/news/1078918/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078918",
+    "source": "Habr",
+    "date": "2026-09-06",
+    "category": "world"
+  },
+  {
+    "id": "4023f1ca7922",
+    "title": "В октябре Microsoft прекратит поддержку функции Similarity Checker в Word",
+    "summary": "С 3&nbsp;октября 2026&nbsp;года Microsoft больше не&nbsp;будет поддерживать функцию Similarity Checker, которая позволяла сравнивать текст с&nbsp;онлайн‑источниками. Similarity Checker работала на&nbsp;основе поиска Bing и использовалась в&nbsp;основном в&nbsp;академической ср…",
+    "link": "https://habr.com/ru/news/1078834/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078834",
     "source": "Habr",
     "date": "2026-09-05",
     "category": "world"
   },
   {
-    "id": "9ee6de0018c3",
-    "title": "Ежемесячная подборка хакатонов — август 2026",
-    "summary": "В сентябрьской подборке — 14 актуальных соревнований для разработчиков, дата-сайентистов, CTF-команд, школьников и студентов. Космос, транспорт, экология, кибербезопасность, образование и даже анимация с ИИ — каждый найдёт задачу по душе. Ссылки на регистрацию и все дедлайны в…",
-    "link": "https://habr.com/ru/news/1078648/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078648",
+    "id": "468a65e0309d",
+    "title": "WSJ: онлайн‑собеседования стали требовательнее из‑за ИИ‑аватаров и мошенников",
+    "summary": "Кандидатов на&nbsp;онлайн‑собеседованиях всё чаще просят убрать фон в&nbsp;Zoom, повернуть камеру так, чтобы она показала комнату, и помахать рукой перед&nbsp;лицом. По данным WSJ, это делается из‑за наплыва сгенерированных ИИ резюме, под&nbsp;которым скрываются в&nbsp;лучшем …",
+    "link": "https://habr.com/ru/news/1078830/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078830",
     "source": "Habr",
     "date": "2026-09-05",
     "category": "world"
   },
   {
-    "id": "39230e84b7bd",
-    "title": "Microsoft внедряет проверку возраста в Windows 11",
-    "summary": "Microsoft готовится сделать проверку возраста в&nbsp;Windows 11. На&nbsp;новой странице поддержки Teams Free теперь указано, что&nbsp;пользователям из&nbsp;определённых регионов вскоре потребуется подтвердить свой возраст для&nbsp;сохранения доступа ко всем возможностям сервис…",
-    "link": "https://habr.com/ru/news/1078742/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078742",
+    "id": "347749694706",
+    "title": "Линус Торвальдс пофиксил баг в ядре Linux при помощи ИИ",
+    "summary": "После полного выключения и включения компьютера Linux показывал чёрный экран. Графическая оболочка постоянно перезапускалась, хотя сама система продолжала работать. Лечилось перезапуском оболочки. Фиксом занялся сам Линус Торвальдс. И в помощники он взял себе AI. Сама причина …",
+    "link": "https://habr.com/ru/companies/spring_aio/news/1078818/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078818",
     "source": "Habr",
     "date": "2026-09-05",
     "category": "world"
   },
   {
-    "id": "0eed0e381e70",
-    "title": "Семь нейросетей сравнили вслепую на восьми заданиях: победила Fable 5.1, Kimi K3 взяла больше всего заданий",
-    "summary": "Опубликованы итоги открытого сравнения семи нейросетей от семи разных команд на восьми практических заданиях. Первое место по сумме баллов заняла Fable 5.1 (145), второе — Kimi K3 (133), третье — GPT-5.6 Sol (118). Все работы, голоса судей с пояснениями выложены на https://iko…",
-    "link": "https://habr.com/ru/news/1078704/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078704",
+    "id": "988477dc9c4e",
+    "title": "GPT-6 Astra стала доступна пользователям Plus, Pro, Enterprise и Business Premium",
+    "summary": "GPT-6 Astra появилась у всех пользователей тарифов Pro, Enterprise и Business Premium в ChatGPT Work и Codex, а также стала доступна через API. Изначально Astra начали разворачивать для ограниченного числа организаций в программе Daybreak, а затем OpenAI обещала постепенно отк…",
+    "link": "https://habr.com/ru/companies/bothub/news/1078790/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078790",
+    "source": "Habr",
+    "date": "2026-09-05",
+    "category": "world"
+  },
+  {
+    "id": "60e85e61976f",
+    "title": "Claude по просьбе разработчика предложил перевести время на Mac на 4026 год и парализовал работу ПК",
+    "summary": "Вайбкодер под ником deeplycuriouss работал на Mac над своим iOS-приложением. Мобильный разработчик захотел быстро изменить время для получения нужного снимка экрана (промо-скриншота). Он запросил у Claude совета. ИИ выдал нужную команду (sudo systemsetup -setusingnetworktime o…",
+    "link": "https://habr.com/ru/news/1078788/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078788",
     "source": "Habr",
     "date": "2026-09-05",
     "category": "world"
@@ -108,42 +153,6 @@
     "category": "ru"
   },
   {
-    "id": "2c5f7c35b440",
-    "title": "Nvidia представила PAIR — утилиту, с помощью которой объединяет несколько ПК и распределяет между ними AI‑задачи",
-    "summary": "Nvidia выпустила инструмент PAIR (Personal AI Router), который объединяет несколько компьютеров в&nbsp;локальной сети и распределяет между ними задачи по&nbsp;запуску AI‑моделей. В&nbsp;один кластер можно подключить ПК с&nbsp;видеокартами Nvidia, системы DGX Spark и Mac. Код и…",
-    "link": "https://habr.com/ru/news/1078660/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078660",
-    "source": "Habr",
-    "date": "2026-09-04",
-    "category": "world"
-  },
-  {
-    "id": "4b238f4ccabb",
-    "title": "H3 Max Director генерирует управляемый видеопоток в реальном времени",
-    "summary": "Новая версия H3 Max генерирует не отдельные клипы с последующей склейкой, а единый непрерывный видеопоток. Модель сохраняет контекст сцены, персонажей и происходящего, а промпт можно менять прямо во время генерации, направляя сюжет на ходу. Посмотреть технологию в действии мож…",
-    "link": "https://habr.com/ru/companies/bothub/news/1078652/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078652",
-    "source": "Habr",
-    "date": "2026-09-04",
-    "category": "world"
-  },
-  {
-    "id": "9aeac5d439da",
-    "title": "Агенты Cursor научились собирать приложения для iOS и macOS",
-    "summary": "Namespace интегрировала свою облачную инфраструктуру Devboxes с Cursor Cloud Agents. Сам Cursor по-прежнему отвечает за агентный цикл и управление задачей, а выполнение действий — работа с репозиторием, запуск команд, сборка и тестирование — переносится в изолированные окружен…",
-    "link": "https://habr.com/ru/companies/bothub/news/1078642/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078642",
-    "source": "Habr",
-    "date": "2026-09-04",
-    "category": "world"
-  },
-  {
-    "id": "5390f51defdd",
-    "title": "Google дал издателям кнопку «любимый источник»",
-    "summary": "Google запустил инструмент, который вроде&nbsp;бы должен помочь издателям отбить трафик, потерянный из‑за ИИ‑ответов в&nbsp;поиске. Называется Preferred Sources: издатель встраивает к&nbsp;себе кнопку, читатель жмёт&nbsp;— и сигнализирует поиску, что&nbsp;хочет видеть этот рес…",
-    "link": "https://habr.com/ru/news/1078578/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078578",
-    "source": "Habr",
-    "date": "2026-09-04",
-    "category": "world"
-  },
-  {
     "id": "25c97cc9bbfd",
     "title": "Централизованная информационная система здравоохранения в топ-20 мирового e-Health: ООН подтвердила технологический суверенитет разработки Республики Беларусь",
     "summary": "Централизованная информационная система здравоохранения в топ-20 мирового e-Health: ООН подтвердила технологический суверенитет разработки Республики Беларусь editor чт, 09/03/2026 - 17:31 Проект «Разработка и внедрение централизованной информационной системы здравоохранения»,…",
@@ -204,15 +213,6 @@
     "link": "https://www.anti-malware.ru/reviews/r-vision-irp-3-1",
     "source": "Anti-Malware",
     "date": "2017-11-13",
-    "category": "ru"
-  },
-  {
-    "id": "a54b44063447",
-    "title": "Дмитрий Бондарь: Российским заказчикам мало типовой функциональности IdM",
-    "summary": "На вопросы аналитического центра Anti-Malware.ru любезно согласился ответить Дмитрий Бондарь, руководитель направления Solar inRights. Это интервью продолжает цикл публикаций «Индустрия в лицах».&nbsp;Почему возникла новая волна интереса к IdM? Д. Б.: Я бы сказал, что это есте…",
-    "link": "https://www.anti-malware.ru/interviews/2016-11-30/21220",
-    "source": "Anti-Malware",
-    "date": "2016-10-17",
     "category": "ru"
   }
 ]
