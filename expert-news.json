@@ -1,156 +1,165 @@
 [
   {
-    "id": "6c6f10f7b30e",
-    "title": "Власти Китая впервые одобрили лекарство, созданное при участии ИИ",
-    "summary": "",
-    "link": "https://ria.ru/20260906/kitaj-2115828987.html",
-    "source": "РИА",
-    "date": "2026-09-06",
+    "id": "ea422441e116",
+    "title": "В Антитеррористическом центре СНГ обсудили применение ИИ для поиска и анализа данных в интернете",
+    "summary": "В мероприятии приняли участие представители научных и исследовательских организаций компетентных органов Армении, Беларуси, Казахстана, Кыргызстана, России, Таджикистана, Узбекистана.",
+    "link": "https://belta.by/society/view/v-antiterroristicheskom-tsentre-sng-obsudili-primenenie-ii-dlja-poiska-i-analiza-dannyh-v-internete-799789-2026/",
+    "source": "БЕЛТА",
+    "date": "2026-09-07",
+    "category": "by"
+  },
+  {
+    "id": "0a730088f99b",
+    "title": "Мишустин поручил проработать допстимулы для корпоративного демографического стандарта",
+    "summary": "Ответственными назначены Минэкономразвития, Минтруд, Минфин, Минцифры и Федеральная налоговая служба",
+    "link": "https://tass.ru/politika/28087125",
+    "source": "ТАСС",
+    "date": "2026-09-07",
     "category": "ru"
   },
   {
-    "id": "a08fbfcd408a",
-    "title": "The Seattle Times и Newsday подали в суд на OpenAI и Microsoft",
-    "summary": "Ещё два издательства подали в&nbsp;суд на&nbsp;OpenAI и Microsoft. The Seattle Times и Newsday обвинили компании в&nbsp;обучении моделей искусственного интеллекта на&nbsp;журналистских материалах без&nbsp;разрешения и компенсации. Читать далее",
-    "link": "https://habr.com/ru/news/1078922/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078922",
+    "id": "684080b5b611",
+    "title": "«Яндекс» назначил новых технических директоров «Алисы AI», «Поиска» и «Умных устройств»",
+    "summary": "«Яндекс» объявил о кадровых перестановках. Техническим директором «Алисы AI» стала Екатерина Серажим, занимавшая...",
+    "link": "https://www.cnews.ru/news/line/2026-09-07_yandeks_naznachil_novyh",
+    "source": "CNews",
+    "date": "2026-09-07",
+    "category": "ru"
+  },
+  {
+    "id": "e2f9e2d2533f",
+    "title": "«РТК-ЦОД» расширяет программу поиска уязвимостей на платформе Standoff Bug Bounty",
+    "summary": "«РТК-ЦОД», ИТ-сервис-провайдер полного цикла, переходит к новому этапу багбаунти на платформе Standoff Bug Bounty от разработчика...",
+    "link": "https://www.cnews.ru/news/line/2026-09-07_rtk-tsod_rasshiryaet_programmu",
+    "source": "CNews",
+    "date": "2026-09-07",
+    "category": "ru"
+  },
+  {
+    "id": "465150a712c4",
+    "title": "UserGate и компания «Актив» подтвердили совместимость uClient и «Рутокен ЭЦП 3.0»",
+    "summary": "UserGate, российский разработчик решений в области кибербезопасности и архитектор сетевого доверия, и компания «Актив»...",
+    "link": "https://www.cnews.ru/news/line/2026-09-07_usergate_i_kompaniya_aktiv_podtverdili",
+    "source": "CNews",
+    "date": "2026-09-07",
+    "category": "ru"
+  },
+  {
+    "id": "abad11340246",
+    "title": "Представлен CHUWI UniBox AI495 Pro — самый мощный мини-компьютер нового поколения для локального ИИ на базе AMD Ryzen AI MAX+ PRO 495 (Gorgon Halo)",
+    "summary": "Компания AMD впервые представила процессор Ryzen AI MAX+ PRO 495 примерно в мае 2026 года. Теперь CHUWI представила на выставке...",
+    "link": "https://www.cnews.ru/news/line/2026-09-07_predstavlen_chuwi_unibox_ai495_pro",
+    "source": "CNews",
+    "date": "2026-09-07",
+    "category": "ru"
+  },
+  {
+    "id": "caf35594fcdd",
+    "title": "MWS AI: половина петербуржцев готова к цифровому бессмертию ради близких",
+    "summary": "MWS AI (входит в «МТС Web Services») провела опрос и выяснила, как петербуржцы и жители других регионов относятся к созданию...",
+    "link": "https://www.cnews.ru/news/line/2026-09-07_mws_ai_polovina_peterburzhtsev",
+    "source": "CNews",
+    "date": "2026-09-07",
+    "category": "ru"
+  },
+  {
+    "id": "fc6ceea16250",
+    "title": "Infosecurity помогла благотворительному фонду «Друзья» привести процессы обработки персональных данных в соответствие требованиям законодательства",
+    "summary": "Компания Infosecurity (входит в «Софтлайн Решения», ГК Softline), российский сервис-провайдер в области информационной безопасности...",
+    "link": "https://www.cnews.ru/news/line/2026-09-07_infosecurity_pomogla_blagotvoritelnomu",
+    "source": "CNews",
+    "date": "2026-09-07",
+    "category": "ru"
+  },
+  {
+    "id": "20faadf11329",
+    "title": "Русскоязычный пользователь потерял $2 миллиона, перейдя по ссылке в ChatGPT",
+    "summary": "По данным блокчейн-расследователя компании VAL, ИТ-инцидент произошел 12 июня 2026 г. Криптовалютный пользователь потерял около $2,1 млн в FXRP (токенизированная версия XRP в экосистеме Flare) после того, как перешел по фишинговой ссылке и подписал транзакцию. После кражи акти…",
+    "link": "https://www.cnews.ru/news/top/2026-09-07_russkoyazychnyj_kriptoinvestor",
+    "source": "CNews",
+    "date": "2026-09-07",
+    "category": "ru"
+  },
+  {
+    "id": "454181299833",
+    "title": "ИИ покажет иркутянам краткое содержание звонков в журнале вызовов",
+    "summary": "МТС запускает функцию отображения ключевых тезисов телефонных разговоров в истории вызовов. Новая разработка...",
+    "link": "https://www.cnews.ru/news/line/2026-09-07_ii_pokazhet_irkutyanam_kratkoe",
+    "source": "CNews",
+    "date": "2026-09-07",
+    "category": "ru"
+  },
+  {
+    "id": "e7963ed9f0c3",
+    "title": "Proto стал частью ГК «Базис»",
+    "summary": "Proto, российский разработчик ИИ-платформы наблюдаемости (observability) и аналитики операционных данных, объявляет о завершении сделки с «Базисом», лидером российского рынка ПО управления динамической ИТ-инфраструктурой. По ее условиям «Базис» приобрел 70-процентную долю комп…",
+    "link": "https://habr.com/ru/companies/proto/news/1079294/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1079294",
     "source": "Habr",
-    "date": "2026-09-06",
+    "date": "2026-09-07",
     "category": "world"
   },
   {
-    "id": "121511ae42ac",
-    "title": "Microsoft введёт временные лимиты для облачного гейминга Xbox",
-    "summary": "Microsoft объявила о&nbsp;введении временных&nbsp;лимитов для&nbsp;облачного гейминга Xbox. Вместо неограниченного стриминга подписчики получат фиксированное количество часов в&nbsp;зависимости от&nbsp;уровня подписки Game Pass. Изменения вступят в&nbsp;силу в&nbsp;ноябре. Чит…",
-    "link": "https://habr.com/ru/news/1078920/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078920",
+    "id": "aba4aff82e56",
+    "title": "Уязвимость в стороннем модуле «Фото До и После»: обновитесь до версии 1.0.2",
+    "summary": "Центр информационной безопасности и мониторинга инцидентов компании «1С-Битрикс» уведомляет об уязвимости BDU:2026-10201 в стороннем модуле « Фото До и После: сравнение изображений до/после » разработчика JCode (ИП Ратюков Константин Владимирович). Разработчик устранил уязвимо…",
+    "link": "https://habr.com/ru/news/1079266/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1079266",
     "source": "Habr",
-    "date": "2026-09-06",
+    "date": "2026-09-07",
     "category": "world"
   },
   {
-    "id": "c44d83970d5a",
-    "title": "Брюс Перенс заявил: только патенты могут спасти Open Source",
-    "summary": "В OSI License-discuss автор определения Open Source и один из сооснователей самой OSI (Open Source Initiative) Брюс Перенс заявил, что не знает лицензий для открытого ПО, способных защитить код от ИИ. Сам Перенс уже имеет 46 патентов и считает их единственным способом спасения…",
-    "link": "https://habr.com/ru/news/1078918/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078918",
+    "id": "92265dcac489",
+    "title": "Работа программистов постепенно смещается к проектированию правил и систем обратной связи для ИИ",
+    "summary": "В&nbsp;Venture Beat вышел материал, посвящённый изменениям в&nbsp;работе программистов из‑за широкого внедрения искусственного интеллекта. Автор считает, что&nbsp;теперь вместо реализации отдельных функций они переходят к&nbsp;проектированию правил, границ и систем обратной св…",
+    "link": "https://habr.com/ru/news/1079226/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1079226",
     "source": "Habr",
-    "date": "2026-09-06",
+    "date": "2026-09-07",
     "category": "world"
   },
   {
-    "id": "4023f1ca7922",
-    "title": "В октябре Microsoft прекратит поддержку функции Similarity Checker в Word",
-    "summary": "С 3&nbsp;октября 2026&nbsp;года Microsoft больше не&nbsp;будет поддерживать функцию Similarity Checker, которая позволяла сравнивать текст с&nbsp;онлайн‑источниками. Similarity Checker работала на&nbsp;основе поиска Bing и использовалась в&nbsp;основном в&nbsp;академической ср…",
-    "link": "https://habr.com/ru/news/1078834/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078834",
+    "id": "050d7ea5adbd",
+    "title": "Панель задач Windows 95 не была заимствована из NeXT Dock",
+    "summary": "Бывший вице‑президент Microsoft Джо Бельфиоре утверждает , что&nbsp;панель задач Windows 95&nbsp;не&nbsp;была заимствована у&nbsp;панели Dock из&nbsp;системы NeXT Стива Джобса. Он указывает на&nbsp;элементы дизайна, оставшиеся от&nbsp;отменённого проекта Microsoft под&nbsp;наз…",
+    "link": "https://habr.com/ru/news/1079216/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1079216",
     "source": "Habr",
-    "date": "2026-09-05",
+    "date": "2026-09-07",
     "category": "world"
   },
   {
-    "id": "468a65e0309d",
-    "title": "WSJ: онлайн‑собеседования стали требовательнее из‑за ИИ‑аватаров и мошенников",
-    "summary": "Кандидатов на&nbsp;онлайн‑собеседованиях всё чаще просят убрать фон в&nbsp;Zoom, повернуть камеру так, чтобы она показала комнату, и помахать рукой перед&nbsp;лицом. По данным WSJ, это делается из‑за наплыва сгенерированных ИИ резюме, под&nbsp;которым скрываются в&nbsp;лучшем …",
-    "link": "https://habr.com/ru/news/1078830/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078830",
+    "id": "177276a22a03",
+    "title": "Проект Microsoft Zenith в Windows 11 позволит запускать локальные ИИ‑модели без отвлекающих факторов",
+    "summary": "Microsoft представила Project Zenith&nbsp;— платформу, которая позиционируется как «готовая к&nbsp;работе среда Windows, не&nbsp;отвлекающая от&nbsp;написания кода». Она будет доступна только на&nbsp;избранных аппаратных конфигурациях, ориентированных на&nbsp;разработчиков.&nb…",
+    "link": "https://habr.com/ru/news/1079204/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1079204",
     "source": "Habr",
-    "date": "2026-09-05",
+    "date": "2026-09-07",
     "category": "world"
   },
   {
-    "id": "347749694706",
-    "title": "Линус Торвальдс пофиксил баг в ядре Linux при помощи ИИ",
-    "summary": "После полного выключения и включения компьютера Linux показывал чёрный экран. Графическая оболочка постоянно перезапускалась, хотя сама система продолжала работать. Лечилось перезапуском оболочки. Фиксом занялся сам Линус Торвальдс. И в помощники он взял себе AI. Сама причина …",
-    "link": "https://habr.com/ru/companies/spring_aio/news/1078818/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078818",
+    "id": "ec9d3c1de2f8",
+    "title": "Microsoft работает над Excel Canvas",
+    "summary": "Microsoft стремится ещё больше расширить функционал своих электронных таблиц за&nbsp;счёт интеграции Copilot и недавно объявила о&nbsp;разработке новой функции под&nbsp;названием «Excel canvas». По&nbsp;сути, это визуальное рабочее пространство, которое будет использовать данн…",
+    "link": "https://habr.com/ru/news/1079194/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1079194",
     "source": "Habr",
-    "date": "2026-09-05",
+    "date": "2026-09-07",
     "category": "world"
   },
   {
-    "id": "988477dc9c4e",
-    "title": "GPT-6 Astra стала доступна пользователям Plus, Pro, Enterprise и Business Premium",
-    "summary": "GPT-6 Astra появилась у всех пользователей тарифов Pro, Enterprise и Business Premium в ChatGPT Work и Codex, а также стала доступна через API. Изначально Astra начали разворачивать для ограниченного числа организаций в программе Daybreak, а затем OpenAI обещала постепенно отк…",
-    "link": "https://habr.com/ru/companies/bothub/news/1078790/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078790",
+    "id": "b72e82a734a9",
+    "title": "Meta* перестанет отслеживать использование ИИ при оценке эффективности работников",
+    "summary": "Meta* больше не&nbsp;будет отслеживать использование ИИ при&nbsp;оценке эффективности работников. По данным Wired, в&nbsp;обновлённых метриках больше нет оценки частоты использования ИИ, как&nbsp;и статусов вроде AI Native, AI First или&nbsp;AI Enabled. Вместо этого в&nbsp;ком…",
+    "link": "https://habr.com/ru/news/1079038/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1079038",
     "source": "Habr",
-    "date": "2026-09-05",
+    "date": "2026-09-07",
     "category": "world"
   },
   {
-    "id": "60e85e61976f",
-    "title": "Claude по просьбе разработчика предложил перевести время на Mac на 4026 год и парализовал работу ПК",
-    "summary": "Вайбкодер под ником deeplycuriouss работал на Mac над своим iOS-приложением. Мобильный разработчик захотел быстро изменить время для получения нужного снимка экрана (промо-скриншота). Он запросил у Claude совета. ИИ выдал нужную команду (sudo systemsetup -setusingnetworktime o…",
-    "link": "https://habr.com/ru/news/1078788/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1078788",
+    "id": "ce61d261b22c",
+    "title": "Upd: Сетевой сбой в работе ChatGPT в РФ, спустя 15 часов проблема пропала",
+    "summary": "Согласно данным сервиса detector404, в РФ с 6 сентября 2026 года зафиксирован сетевой сбой в работе ChatGPT (площадка принадлежит OpenAI) у различных провайдеров. Сайт проекта перестаёт открываться ещё до того, как успевает связаться с серверами OpenAI. Также не работает API с…",
+    "link": "https://habr.com/ru/news/1079180/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1079180",
     "source": "Habr",
-    "date": "2026-09-05",
+    "date": "2026-09-07",
     "category": "world"
-  },
-  {
-    "id": "a720a0b5782e",
-    "title": "МТС: нижегородцы хуже остальных россиян относятся к идее хранения цифровой копии умершего",
-    "summary": "MWS AI (входит в «МТС Web Services») представила результаты исследования, посвященного отношению жителей Нижегородской...",
-    "link": "https://www.cnews.ru/news/line/2026-09-04_mts_nizhegorodtsy_huzhe_ostalnyh",
-    "source": "CNews",
-    "date": "2026-09-04",
-    "category": "ru"
-  },
-  {
-    "id": "5b60ab78d5ea",
-    "title": "ИИ-модели ChatGPT взломали сайт и превратили его в свой форум для обмена вредными советами",
-    "summary": "Исследователи кибербезопасности обнаружили взлом ИИ-моделями OpenAI немецкого сайта для программистов, о котором компания ничего не сообщала. ИИ-агенты превратили ресурс в форум. На нем они обменивались между собой советами по обходу ограничений, для чего даже придумали себе и…",
-    "link": "https://www.cnews.ru/news/top/2026-09-04_ii-agenty_openai_prevratili",
-    "source": "CNews",
-    "date": "2026-09-04",
-    "category": "ru"
-  },
-  {
-    "id": "59ce8d874da1",
-    "title": "Исследование: только в 14% российских корпораций знают о методологии безопасной разработки ИИ-систем MLSecOps",
-    "summary": "«К2 Кибербезопасность» и «Лаборатория Касперского» представили новые итоги исследования «Безопасность ИИ в...",
-    "link": "https://www.cnews.ru/news/line/2026-09-04_issledovanie_tolko_v_14",
-    "source": "CNews",
-    "date": "2026-09-04",
-    "category": "ru"
-  },
-  {
-    "id": "c297c48028ee",
-    "title": "Билайн и Правительство Хабаровского края договорились о внедрении ИИ-решений для развития региона",
-    "summary": "Билайн и Правительство Хабаровского края в рамках Восточного экономического форума-2026 заключили соглашение...",
-    "link": "https://www.cnews.ru/news/line/2026-09-04_bilajn_i_pravitelstvo_habarovskogo",
-    "source": "CNews",
-    "date": "2026-09-04",
-    "category": "ru"
-  },
-  {
-    "id": "1fcb568f112f",
-    "title": "Персональный менеджер: в «Звук Студио» появился ИИ-аналитик для музыкантов на базе «ГигаЧата»",
-    "summary": "В приложении для артистов «Звук Студио» появился ИИ-аналитик на базе нейросети «ГигаЧат» — умный инструмент...",
-    "link": "https://www.cnews.ru/news/line/2026-09-04_personalnyj_menedzher_v",
-    "source": "CNews",
-    "date": "2026-09-04",
-    "category": "ru"
-  },
-  {
-    "id": "e0d3604bf742",
-    "title": "Модульные ЦОД в России выходят на масштаб в 5000 стоек",
-    "summary": "В России растет интерес к гипермасштабируемым модульным ЦОД — крупным инфраструктурным объектам для обработки...",
-    "link": "https://www.cnews.ru/news/line/2026-09-04_modulnye_tsod_v_rossii_vyhodyat",
-    "source": "CNews",
-    "date": "2026-09-04",
-    "category": "ru"
-  },
-  {
-    "id": "91c206c50a9a",
-    "title": "Китай и Республика Корея делают ИИ частью инфраструктуры науки (экспресс-информации ИСИЭЗ НИУ ВШЭ)",
-    "summary": "Искусственный интеллект из самостоятельного направления разработок превращается в сквозной инструмент исследований...",
-    "link": "https://www.cnews.ru/news/line/2026-09-04_kitaj_i_respublika_koreya",
-    "source": "CNews",
-    "date": "2026-09-04",
-    "category": "ru"
-  },
-  {
-    "id": "4c24ed27799d",
-    "title": "Хакеры с ИИ против веб-сервисов: Solar 4RAYS представил отчет о расследовании сложных кибератак в I полугодии",
-    "summary": "В первой половине 2026 г. интерес хакеров сместился с госсектора на промышленность: хакеры надеются получить от...",
-    "link": "https://www.cnews.ru/news/line/2026-09-04_hakery_s_ii_protiv_veb-servisov",
-    "source": "CNews",
-    "date": "2026-09-04",
-    "category": "ru"
   },
   {
     "id": "25c97cc9bbfd",
@@ -204,15 +213,6 @@
     "link": "https://www.anti-malware.ru/reviews/Rutoken-electronic-signature",
     "source": "Anti-Malware",
     "date": "2019-01-22",
-    "category": "ru"
-  },
-  {
-    "id": "17e766f178ec",
-    "title": "Обзор платформы R-Vision IRP 3.1",
-    "summary": "В обзоре рассмотривается платформа R-Vision Incident Response Platform (далее R-Vision IRP 3.1) производства российской компании «Р-Вижн», предназначенная для организации управления и оперативного реагирования на инциденты информационной безопасности.&nbsp;ВведениеАрхитектура …",
-    "link": "https://www.anti-malware.ru/reviews/r-vision-irp-3-1",
-    "source": "Anti-Malware",
-    "date": "2017-11-13",
     "category": "ru"
   }
 ]
