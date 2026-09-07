@@ -82,14 +82,6 @@
   .filter-count{font-size:10px;border-radius:0;padding:1px 6px;font-weight:700;background:rgba(255,255,255,.15)}
   .filter-btn:not(.active) .filter-count{background:var(--surface2);color:var(--text3)}
 
-  /* SOURCE BADGES */
-  .sources-row{max-width:1280px;margin:0 auto;padding:8px 28px 2px;display:flex;align-items:center;gap:6px;overflow-x:auto;scrollbar-width:none;flex-wrap:wrap}
-  .sources-row::-webkit-scrollbar{display:none}
-  .src-badge{font-size:10px;border:1px solid var(--border);border-radius:0;padding:2px 8px;white-space:nowrap;color:var(--text3)}
-  .src-badge.ok{border-color:rgba(0,0,0,.18);color:var(--text2)}
-  .src-badge.err{border-color:rgba(231,19,26,.3);color:var(--accent)}
-  .src-label{font-size:10px;color:var(--text3);flex-shrink:0}
-
   /* MAIN */
   main{max-width:1280px;margin:0 auto;padding:28px 28px 80px}
   .section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;gap:12px}
@@ -213,7 +205,7 @@
     .stat-num{font-size:17px}
     .regions-bar{top:118px}
     .filters-bar{top:161px}
-    .regions-inner,.filters-inner,.sources-row,main,.expert-section{padding-left:16px;padding-right:16px}
+    .regions-inner,.filters-inner,main,.expert-section{padding-left:16px;padding-right:16px}
     main{padding-top:20px;padding-bottom:60px}
     .section-header{flex-direction:column;align-items:flex-start;gap:6px}
     .modal{width:min(680px,96vw);max-height:88vh}
@@ -264,7 +256,6 @@
     <div class="hero-stats">
       <div class="stat"><span class="stat-num" id="stat-total">—</span><span class="stat-label">новостей</span></div>
       <div class="stat"><span class="stat-num" id="stat-by">—</span><span class="stat-label">из Беларуси 🇧🇾</span></div>
-      <div class="stat"><span class="stat-num" id="stat-ok">—</span><span class="stat-label">источников онлайн</span></div>
       <div class="stat"><span class="stat-num">8</span><span class="stat-label">категорий</span></div>
     </div>
   </div>
@@ -276,9 +267,6 @@
 <div class="filters-bar">
   <div class="filters-inner" id="filters"></div>
 </div>
-
-<!-- Статус источников (здоровье RSS) -->
-<div class="sources-row" id="sourcesRow"></div>
 
 <!-- EXPERT NEWS SECTION -->
 <div class="expert-section" id="expertSection">
@@ -636,7 +624,7 @@ async function fetchSource(src){
 }
 
 function setStatsLoading(on){
-  ['stat-total','stat-by','stat-ok'].forEach(id=>{
+  ['stat-total','stat-by'].forEach(id=>{
     const el = document.getElementById(id);
     if(!el) return;
     el.textContent = on ? '…' : el.textContent;
@@ -648,7 +636,7 @@ function updateLoadingStatus(done, total){
   const el = document.getElementById('lastUpdated');
   if(!el) return;
   el.classList.add('loading');
-  el.innerHTML = `<span class="live-dot"></span>Загрузка ${done}/${total} источников…`;
+  el.innerHTML = `<span class="live-dot"></span>Загрузка…`;
 }
 
 async function loadAllFeeds(){
@@ -657,12 +645,12 @@ async function loadAllFeeds(){
     loading = false;
     setStatsLoading(false);
     document.getElementById('lastUpdated').innerHTML =
-      '<span class="live-dot" style="background:#e7131a"></span>Источники недоступны';
+      '<span class="live-dot" style="background:#e7131a"></span>Лента недоступна';
     document.getElementById('grid').innerHTML = `<div class="empty">
       <svg width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 9v4m0 4h.01M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg>
-      <h3>Не удалось загрузить источники</h3>
+      <h3>Не удалось загрузить ленту</h3>
       <p>Проверьте подключение и нажмите «Обновить»</p></div>`;
-    showToast('⚠️ Не удалось загрузить список источников');
+    showToast('⚠️ Не удалось загрузить ленту');
     return;
   }
   if(loading) return;
@@ -675,7 +663,7 @@ async function loadAllFeeds(){
   setStatsLoading(true);
   showSkeleton();
   updateLoadingStatus(0, SOURCES.length);
-  showToast('Загружаю '+SOURCES.length+' источников…');
+  showToast('Загружаю ленту…');
 
   const live = [];
   let ok = 0;
@@ -695,7 +683,6 @@ async function loadAllFeeds(){
       done++;
       setProgress(4 + Math.round((done / total) * 96));
       updateLoadingStatus(done, total);
-      renderSourceBadges();
     }
   }));
 
@@ -739,25 +726,23 @@ async function loadAllFeeds(){
 
   renderCounts();
   renderGrid();
-  renderSourceBadges();
 
   const now = new Date();
-  document.getElementById('stat-ok').textContent = ok;
   const lastEl = document.getElementById('lastUpdated');
   lastEl.classList.remove('loading');
   lastEl.innerHTML =
-    `<span class="live-dot"></span>${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')} · ${ok}/${SOURCES.length} источников`;
+    `<span class="live-dot"></span>Обновлено ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
 
   if(ok===0) {
-    showToast('⚠️ Источники не ответили');
+    showToast('⚠️ Лента временно недоступна');
     if(!getFiltered().length){
       document.getElementById('grid').innerHTML = `<div class="empty">
         <svg width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 9v4m0 4h.01M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg>
-        <h3>Источники временно недоступны</h3>
+        <h3>Лента временно недоступна</h3>
         <p>Попробуйте обновить страницу через минуту</p></div>`;
     }
   }
-  else showToast(`✅ ${live.length} новостей из ${ok} источников`);
+  else showToast(`✅ Загружено ${live.length} новостей`);
 }
 
 // ═══════════════════════════════════════════════
@@ -814,16 +799,9 @@ function renderCounts(){
   document.getElementById('stat-by').textContent = NEWS.filter(n=>n.region==='by').length;
 }
 
-function renderSourceBadges(){
-  const row = document.getElementById('sourcesRow');
-  if (!row) return; // защита на случай отсутствия элемента
-  row.innerHTML = '<span class="src-label">Источники:</span>' +
-    SOURCES.map(s=>`<span class="src-badge ${srcStatus[s.id]||''}">${s.flag} ${s.name} ${srcStatus[s.id]==='ok'?'✓':'—'}</span>`).join('');
-}
-
 function showSkeleton(){
   document.getElementById('grid').innerHTML =
-    `<div class="loading-hint"><strong>Загружаем новости</strong> из ${SOURCES.length || '…'} RSS-источников</div>` +
+    `<div class="loading-hint"><strong>Загружаем новости</strong> — подождите несколько секунд</div>` +
     Array(9).fill(`
     <div class="skel">
       <div class="sk" style="height:16px;width:50%"></div>
@@ -843,7 +821,7 @@ function renderGrid(){
 
   if(!items.length){
     const msg = loading
-      ? { title:'Загрузка новостей…', sub:'Подождите, собираем материалы из источников' }
+      ? { title:'Загрузка новостей…', sub:'Подождите, собираем материалы' }
       : currentSearch
         ? { title:'Ничего не найдено', sub:'Попробуйте другой запрос или категорию' }
         : { title:'Новостей пока нет', sub:'Нажмите «Обновить» или выберите другой регион' };
