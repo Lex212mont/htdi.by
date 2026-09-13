@@ -1,21 +1,57 @@
 [
   {
-    "id": "555253da32f7",
-    "title": "Лауреаты Филдсовской премии предупредили об опасности ИИ для математики",
-    "summary": "Группа из 25 ученых - математиков заявили, что цели компаний, занимающихся искусственным интеллектом, и цели математического сообщества серьезно расходятся",
-    "link": "https://tass.ru/mezhdunarodnaya-panorama/28105571",
-    "source": "ТАСС",
-    "date": "2026-09-12",
-    "category": "ru"
+    "id": "06bee0a5feb6",
+    "title": "«Байкал Электроникс» запустила ИИ-ассистента на портале техдокументации и SDK для микроконтроллера Baikal-U (BE-U1000)",
+    "summary": "Разработчик отечественных процессоров « Байкал Электроникс » запустила ИИ-ассистента на портале технической документации и SDK для микроконтроллера Baikal-U (BE-U1000) . Ассистент объединяет поиск по всему массиву технических материалов проекта, включая справочные руководства,…",
+    "link": "https://habr.com/ru/news/1081666/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1081666",
+    "source": "Habr",
+    "date": "2026-09-13",
+    "category": "world"
   },
   {
-    "id": "9a2fce7a630a",
-    "title": "Минпросвещения определило, с какого класса школьники могут пользоваться ИИ",
-    "summary": "",
-    "link": "https://ria.ru/20260912/ii-2117246539.html",
-    "source": "РИА",
+    "id": "d304ea16787b",
+    "title": "Подписка OpenCode Go вышла на самоокупаемость",
+    "summary": "Соучредитель ИИ‑сервиса для&nbsp;написания кода OpenCode Дакс Раад сообщил , что&nbsp;тарифный план OpenCode Go за $10&nbsp;в&nbsp;месяц вышел на&nbsp;самоокупаемость и сохраняет этот статус уже две недели подряд.&nbsp; Читать далее",
+    "link": "https://habr.com/ru/news/1081676/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1081676",
+    "source": "Habr",
+    "date": "2026-09-13",
+    "category": "world"
+  },
+  {
+    "id": "caa18ab33394",
+    "title": "Microsoft вернёт в Windows 11 функцию «Защита администратора»",
+    "summary": "Ещё в&nbsp;конце 2024&nbsp;года Microsoft начала экспериментировать с&nbsp;новой функцией для&nbsp;Windows 11&nbsp;под&nbsp;названием «Защита администратора» (Administrator Protection). Теперь компания готовится выпустить её в&nbsp;открытый доступ. Читать далее",
+    "link": "https://habr.com/ru/news/1081668/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1081668",
+    "source": "Habr",
+    "date": "2026-09-13",
+    "category": "world"
+  },
+  {
+    "id": "8c73eb288470",
+    "title": "Google переводит соучредителя Mechanize и более десятка инженеров в DeepMind",
+    "summary": "Google завершила сделку по&nbsp;привлечению команды стартапа Mechanize из&nbsp;Сан‑Франциско, специализирующегося на&nbsp;использовании ИИ для&nbsp;написания кода. Теперь в&nbsp;профиле соучредителя Mechanize Тамая Бесироглу в&nbsp;LinkedIn указано, что&nbsp;он работает в&nbsp…",
+    "link": "https://habr.com/ru/news/1081652/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1081652",
+    "source": "Habr",
+    "date": "2026-09-13",
+    "category": "world"
+  },
+  {
+    "id": "88f2086a776b",
+    "title": "Claude по одному промпту и за несколько переделок создала печатную плату в KiCad с нуля, ПО для MCU тоже написал ИИ",
+    "summary": "Пользователь Reddit под&nbsp;ником a6m‑zero рассказал , что решил с&nbsp;помощью Claude Fable 5&nbsp;практически за&nbsp;один промпт спроектировать печатную плату с&nbsp;нуля, причём от&nbsp;схемы и ПО&nbsp;до&nbsp;готового устройства. В&nbsp;процессе работы не&nbsp;было никак…",
+    "link": "https://habr.com/ru/news/1081606/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1081606",
+    "source": "Habr",
     "date": "2026-09-12",
-    "category": "ru"
+    "category": "world"
+  },
+  {
+    "id": "b9c01382d061",
+    "title": "Глава Anthropic призвал замедлить развитие ИИ",
+    "summary": "Глава Anthropic Дарио Амодеи&nbsp; опубликовал эссе We Must Pace the Frontier , в котором предложил замедлить рост возможностей передовых ИИ-моделей. По его мнению, исследования безопасности перестают успевать за прогрессом. Anthropic обязуется начать с постоянного доступа вне…",
+    "link": "https://habr.com/ru/news/1081594/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1081594",
+    "source": "Habr",
+    "date": "2026-09-12",
+    "category": "world"
   },
   {
     "id": "6c0164660f8f",
@@ -108,60 +144,6 @@
     "category": "ru"
   },
   {
-    "id": "1a82868733ba",
-    "title": "Международная конференция «Искусственный интеллект в нейронауках» в Плехановском университете",
-    "summary": "исходная ссылка на официальную новость . Идет трехдневный форум на стыке промышленности, медицины и искусственного интеллекта. Конференция объединила исследователей динамики сложных систем, математиков, практиков-разработчиков. Сайт конференции интересно показывает взаимосвязь…",
-    "link": "https://habr.com/ru/news/1081468/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1081468",
-    "source": "Habr",
-    "date": "2026-09-11",
-    "category": "world"
-  },
-  {
-    "id": "e497a8db32aa",
-    "title": "Anthropic раскрыла сеть из дейтинговых приложений с ИИ‑персонажами, работающими на Claude",
-    "summary": "Anthropic раскрыла детали масштабной мошеннической&nbsp;сети (проект получил&nbsp;кодовое имя GTG-15001) из&nbsp;дейтинг‑приложений, построенной на&nbsp;базе нескольких ИИ-систем. Студия из Китая развернула более 20&nbsp;мобильных приложений для знакомств, где 75% всех «мэтчей…",
-    "link": "https://habr.com/ru/news/1081422/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1081422",
-    "source": "Habr",
-    "date": "2026-09-11",
-    "category": "world"
-  },
-  {
-    "id": "cac333aac5fd",
-    "title": "Unity выпустила официальный плагин для Claude Code, Codex и Grok",
-    "summary": "Unity выпустила официальный плагин для&nbsp;сторонних AI‑агентов, с&nbsp;помощью которого Codex. Claude и Grok могут работать с&nbsp;проектами на&nbsp;Unity. Плагин работает с&nbsp;Unity 6&nbsp;и подключается непосредственно к&nbsp;AI‑агенту. Читать далее",
-    "link": "https://habr.com/ru/news/1081400/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1081400",
-    "source": "Habr",
-    "date": "2026-09-11",
-    "category": "world"
-  },
-  {
-    "id": "24ffe566aa41",
-    "title": "Innostage обновила платформу ИИ‑агентов для автоматизации SOC — Innostage TDIR 1.5.1",
-    "summary": "Innostage объявляет о выходе версии 1.5.1 решения Innostage TDIR Интеллектуальная автоматизация расследования инцидентов ИБ (далее по тексту – Innostage TDIR), предназначенного для интеллектуальной автоматизации деятельности центров мониторинга и реагирования на инциденты инфо…",
-    "link": "https://habr.com/ru/companies/innostage/news/1081376/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1081376",
-    "source": "Habr",
-    "date": "2026-09-11",
-    "category": "world"
-  },
-  {
-    "id": "e3f9598a49ef",
-    "title": "InfoWatch Data Discovery меняет подход к файловому аудиту",
-    "summary": "В обновлении InfoWatch Data Discovery 2.2 появился модуль ML-кластеризации, который автоматически систематизирует 100% файлов и может многократно ускорить файловый аудит. В рамках цикла обновлений продуктов по защите данных ГК InfoWatch выпустила обновление решения для аудита …",
-    "link": "https://habr.com/ru/companies/infowatch/news/1081372/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1081372",
-    "source": "Habr",
-    "date": "2026-09-11",
-    "category": "world"
-  },
-  {
-    "id": "29c19e132011",
-    "title": "НАСА и IBM представили ИИ‑модель для исследования Луны",
-    "summary": "НАСА начинает активнее использовать искусственный интеллект для&nbsp;изучения Луны, чтобы изменить подход исследователей к&nbsp;анализу её поверхности. В&nbsp;рамках сотрудничества с&nbsp;IBM Research и несколькими научными организациями агентство представило NASA‑IBM Lunar Fo…",
-    "link": "https://habr.com/ru/news/1081326/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1081326",
-    "source": "Habr",
-    "date": "2026-09-11",
-    "category": "world"
-  },
-  {
     "id": "4d97f3accaa0",
     "title": "Прорывные идеи для IT. БИСИ и Агентство цифровой трансформации подписали соглашение с молодыми аналитиками",
     "summary": "Прорывные идеи для IT. БИСИ и Агентство цифровой трансформации подписали соглашение с молодыми аналитиками editor ср, 09/09/2026 - 19:58 Ссылка на источник https://www.sb.by/articles/agentstvo-tsifrovoy-transformatsii-i-molodyezhnoe-analiticheskoe-soobshchestvo-podpisali-sogla…",
@@ -213,6 +195,24 @@
     "link": "https://www.anti-malware.ru/reviews/r-vision-irp-3-1",
     "source": "Anti-Malware",
     "date": "2017-11-13",
+    "category": "ru"
+  },
+  {
+    "id": "a54b44063447",
+    "title": "Дмитрий Бондарь: Российским заказчикам мало типовой функциональности IdM",
+    "summary": "На вопросы аналитического центра Anti-Malware.ru любезно согласился ответить Дмитрий Бондарь, руководитель направления Solar inRights. Это интервью продолжает цикл публикаций «Индустрия в лицах».&nbsp;Почему возникла новая волна интереса к IdM? Д. Б.: Я бы сказал, что это есте…",
+    "link": "https://www.anti-malware.ru/interviews/2016-11-30/21220",
+    "source": "Anti-Malware",
+    "date": "2016-10-17",
+    "category": "ru"
+  },
+  {
+    "id": "8b5dc1dd690c",
+    "title": "Российские ИТ-компании успешно вытеснили американцев на рынке DLP в России",
+    "summary": "Российский независимый информационно-аналитический центр Anti-Malware.ru опубликовал результаты очередного независимого анализа DLP-рынка (средств защиты от утечек конфиденциальных данных) в России. В отчете приводятся данные объемов продаж и долей рынка основных игроков в 201…",
+    "link": "https://www.anti-malware.ru/pr/2016-06-27/19684",
+    "source": "Anti-Malware",
+    "date": "2016-06-27",
     "category": "ru"
   }
 ]
