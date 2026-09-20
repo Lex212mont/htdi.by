@@ -1,39 +1,75 @@
 [
   {
-    "id": "109e950be392",
-    "title": "\"Виртуальная лажа\". Памфилова оценила ролик с Канье Уэстом на выборах в ГД",
-    "summary": "Глава ЦИК назвала производство дипфейков с помощью искусственного интеллекта \"опасностью и угрозой\"",
-    "link": "https://tass.ru/politika/28128305",
-    "source": "ТАСС",
-    "date": "2026-09-19",
-    "category": "ru"
+    "id": "c1a262f07e62",
+    "title": "Apple Intelligence в iOS 27 теперь надо до 14 ГБ для хранения локальных моделей",
+    "summary": "Apple обновила системные требования для&nbsp;нового поколения Apple Intelligence. На&nbsp;некоторых моделях iPhone локальные модели машинного обучения теперь занимают до 14&nbsp;ГБ хранилища. Прошлой версии набора нейросетевых функций надо&nbsp;было около 8&nbsp;ГБ свободного …",
+    "link": "https://habr.com/ru/news/1084254/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1084254",
+    "source": "Habr",
+    "date": "2026-09-20",
+    "category": "world"
   },
   {
-    "id": "be78573448f2",
-    "title": "В Минцифры рассказали, какие регионы стали лидерами по явке на выборах онлайн",
-    "summary": "Ими стали Смоленская и Новгородская области",
-    "link": "https://tass.ru/obschestvo/28128211",
-    "source": "ТАСС",
-    "date": "2026-09-19",
-    "category": "ru"
+    "id": "2be025226715",
+    "title": "Американские военные чуть не атаковали китайский корабль из-за ошибочных разведданных, подготовленных с помощью ИИ",
+    "summary": "По информации CNN, тихоокеанское командование специальных операций США запланировало атаку, но потом отменило операцию против китайского корабля на Ближнем Востоке. Инцидент чуть не произошёл из-за ошибочных разведывательных данных, подготовленных для американских военных с по…",
+    "link": "https://habr.com/ru/news/1084238/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1084238",
+    "source": "Habr",
+    "date": "2026-09-20",
+    "category": "world"
   },
   {
-    "id": "c10385a9503c",
-    "title": "Путин поручил утвердить карту внедрения ИИ в управление перевозками",
-    "summary": "",
-    "link": "https://ria.ru/20260919/ii-2118733107.html",
-    "source": "РИА",
+    "id": "25e664258b03",
+    "title": "Интерпол с помощью ИИ распознал 126 террористов",
+    "summary": "На настоящий момент были идентифицированы 126 иностранных террористов-боевиков\", - отмечается в документе.",
+    "link": "https://belta.by/world/view/interpol-s-pomoschjju-ii-raspoznal-126-terroristov-801898-2026/",
+    "source": "БЕЛТА",
     "date": "2026-09-19",
-    "category": "ru"
+    "category": "by"
   },
   {
-    "id": "3eef6e7e0d0f",
-    "title": "Памфилова оценила опасность производства дипфейков с помощью ИИ на выборах",
-    "summary": "",
-    "link": "https://ria.ru/20260919/pamfilova-2118710143.html",
-    "source": "РИА",
+    "id": "619eceb75f7c",
+    "title": "В проекте Roboharm три нейросети управляли роборукой и выполнили опасные для жизни человека команды",
+    "summary": "Исследователи из Robocurve провели эксперимент Roboharm. в рамках которого три нейросетевые модели (GPT-6 Astra, Claude Fable 5.1 и MolmoAct2) получили возможность управления роборукой. ИИ давали команды, чтобы посмотреть, откажутся ли нейросети выполнять опасные для жизни чел…",
+    "link": "https://habr.com/ru/news/1084180/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1084180",
+    "source": "Habr",
     "date": "2026-09-19",
-    "category": "ru"
+    "category": "world"
+  },
+  {
+    "id": "5eb1008e6337",
+    "title": "Microsoft напомнила системным администраторам о сроке завершения поддержки режима IE в 2029 году",
+    "summary": "Microsoft через Центр сообщений Microsoft 365&nbsp; напомнила администраторам, что&nbsp;режим Internet Explorer (IE) в&nbsp;браузере Microsoft Edge будет полностью поддерживаться как&nbsp;минимум до&nbsp;конца 2029&nbsp;года.&nbsp; Читать далее",
+    "link": "https://habr.com/ru/news/1084152/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1084152",
+    "source": "Habr",
+    "date": "2026-09-19",
+    "category": "world"
+  },
+  {
+    "id": "5f3180b260ed",
+    "title": "Gemini почти взломали чужую инфраструктуру: виновата снова Irregular",
+    "summary": "Причём сделала это не во время атаки на реальную инфраструктуру, а в тесте, где реальных компаний вообще не должно было быть. Инцидент произошёл ещё в мае во время тестирования Gemini на кибербезопасность, которое проводила компания Irregular. О произошедшем стало известно тол…",
+    "link": "https://habr.com/ru/companies/bothub/news/1084156/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1084156",
+    "source": "Habr",
+    "date": "2026-09-19",
+    "category": "world"
+  },
+  {
+    "id": "89b19b078c55",
+    "title": "Microsoft выпустила ISO‑образ Windows 11 26H2 для тестирования",
+    "summary": "В&nbsp;конце прошлого месяца Microsoft выпустила версию Windows 11 26H2&nbsp;на&nbsp;канале Release Preview программы предварительной оценки. Теперь компания начала публиковать ознакомительные ISO‑образы для&nbsp;тестирования.&nbsp; Читать далее",
+    "link": "https://habr.com/ru/news/1084144/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1084144",
+    "source": "Habr",
+    "date": "2026-09-19",
+    "category": "world"
+  },
+  {
+    "id": "304b864379f7",
+    "title": "ИИ заставил Java и Spring патчиться чаще",
+    "summary": "AI ускорил не только разработку. Он так же бодро ускорил поиск уязвимостей. Oracle признала, что квартального графика обновлений Java уже недостаточно. Дополнительный патч вышел в августе, следующий запланирован на 17 ноября. В 2027 году таких выпусков станет больше. У Spring …",
+    "link": "https://habr.com/ru/companies/spring_aio/news/1084128/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1084128",
+    "source": "Habr",
+    "date": "2026-09-19",
+    "category": "world"
   },
   {
     "id": "32b296084a38",
@@ -135,69 +171,6 @@
     "category": "ru"
   },
   {
-    "id": "a15351cf3934",
-    "title": "Claude Code сам делит проект между AI-агентами",
-    "summary": "Anthropic полностью переделала Projects в Claude Code. Теперь это не папка с чатами, а единый центр управления разработкой. Описываем какую-нибудь большую и грандиозную цель. Например, хотим ускорить checkout или перенести несколько сервисов на новый API. Теперь Claude сам раз…",
-    "link": "https://habr.com/ru/news/1084048/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1084048",
-    "source": "Habr",
-    "date": "2026-09-18",
-    "category": "world"
-  },
-  {
-    "id": "4fd7c66a0916",
-    "title": "GPT-6 Astra помогла прочесть зашифрованную Enigma немецкую радиограмму 1941 года — над ней бились 21 год",
-    "summary": "Сотрудник Bloomberg Картер Леффен с&nbsp;помощью GPT-6&nbsp;Astra расшифровал немецкую военную радиограмму MVUEH от 10&nbsp;июля 1941&nbsp;года. Сообщение состояло всего из 82&nbsp;зашифрованных символов и находилось в&nbsp;коллекции исследовательского проекта CryptoCellar. По…",
-    "link": "https://habr.com/ru/news/1084042/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1084042",
-    "source": "Habr",
-    "date": "2026-09-18",
-    "category": "world"
-  },
-  {
-    "id": "1792b9c444b7",
-    "title": "ИИ в тестировании: разбираем падения автотестов, оцениваем LLM и строим обвязку агентов",
-    "summary": "В августе прошёл Bugs Busters — митап для QA-специалистов от ЮMoney. Спикеры компании рассказали, как применяют ИИ для анализа причин падения e2e-автотестов, как устроен инструмент для подбора оптимальной LLM-модели под конкретную задачу и как строить обвязку вокруг агентов. Н…",
-    "link": "https://habr.com/ru/companies/yoomoney/news/1083962/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1083962",
-    "source": "Habr",
-    "date": "2026-09-18",
-    "category": "world"
-  },
-  {
-    "id": "89c3a6adfdc6",
-    "title": "QuiverAI выпустила Arrow 2 — семейство моделей для работы с векторной графикой",
-    "summary": "Компания QuiverAI представила Arrow 2&nbsp;— обновлённое семейство моделей для&nbsp;работы с&nbsp;векторной графикой. Нейросети могут генерировать SVG по&nbsp;текстовому описанию или&nbsp;референсу, конвертировать растровые изображения в&nbsp;векторные, редактировать уже готов…",
-    "link": "https://habr.com/ru/news/1083958/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1083958",
-    "source": "Habr",
-    "date": "2026-09-18",
-    "category": "world"
-  },
-  {
-    "id": "508f130f67d7",
-    "title": "ZCode от Z.ai шифрует и грузит весь git‑репозиторий в облако Alibaba",
-    "summary": "Разработчик ferstar опубликовал результаты реверс-инжиниринга ZCode, официального десктопного приложения Z.ai (разработчик моделей GLM). Пока пользователь залогинен, ZCode в фоне упаковывает всю рабочую директорию: полную историю .git, кэш LFS, reflog и глобальные конфиги прил…",
-    "link": "https://habr.com/ru/news/1083926/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1083926",
-    "source": "Habr",
-    "date": "2026-09-18",
-    "category": "world"
-  },
-  {
-    "id": "8621f87a4de7",
-    "title": "ИИ сам разрабатывает следующую версию самого себя",
-    "summary": "Anthropic впервые раскрыла, насколько активно использует Claude при разработке новых моделей. • Claude уже ведёт 26% исследований и разработки новых моделей • более 90% R&amp;D-задач выполняются с его участием • внутри компании одновременно работают около 30 000 ИИ-агентов Чит…",
-    "link": "https://habr.com/ru/companies/koda/news/1083910/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1083910",
-    "source": "Habr",
-    "date": "2026-09-18",
-    "category": "world"
-  },
-  {
-    "id": "2b425de39e6c",
-    "title": "Разработчик Codex: запуск большого количества ИИ‑агентов только увеличивает расход токенов",
-    "summary": "Разработчик OpenAI Codex Эрик Провенчер поделился своим наблюдением: по&nbsp;его словам, параллельный запуск большого количества ИИ‑агентов часто&nbsp;лишь резко увеличивает расход токенов, но&nbsp;не&nbsp;улучшает результат. Читать далее",
-    "link": "https://habr.com/ru/news/1083836/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1083836",
-    "source": "Habr",
-    "date": "2026-09-18",
-    "category": "world"
-  },
-  {
     "id": "42f041cf83eb",
     "title": "ИИ и цифровая трансформация: как прошел \"Разговор без галстуков\" с министром связи и информатизации",
     "summary": "ИИ и цифровая трансформация: как прошел \"Разговор без галстуков\" с министром связи и информатизации editor вт, 09/15/2026 - 22:40 Ссылка на источник https://belta.by/society/view/ii-i-tsifrovaja-transformatsija-kak-proshel-razgovor-bez-galstukov-s-ministrom-svjazi-i-informatiz…",
@@ -213,6 +186,33 @@
     "link": "https://www.anti-malware.ru/interviews/2019-03-21/29208",
     "source": "Anti-Malware",
     "date": "2019-03-21",
+    "category": "ru"
+  },
+  {
+    "id": "5cc8d687ff6b",
+    "title": "Обзор Kaspersky DDoS Prevention",
+    "summary": "Kaspersky DDoS Prevention позволяет защитить ресурсы клиентов от атак типа «отказ в обслуживании» путем перенаправления пользовательского трафика на Центры очистки «Лаборатории Касперского». Новые режимы подключения защищаемых ресурсов клиента, возможность мониторинга бот-сете…",
+    "link": "https://www.anti-malware.ru/reviews/Kaspersky-DDoS-Prevention",
+    "source": "Anti-Malware",
+    "date": "2019-02-05",
+    "category": "ru"
+  },
+  {
+    "id": "d432984f4a74",
+    "title": "Обзор решений Рутокен для электронной подписи и двухфакторной аутентификации",
+    "summary": "О том, почему USB-токены и смарт-карты выдержали проверку временем и используются в большинстве коммерческих компаний и государственных организаций, расскажем на примере продуктов Рутокен компании «Актив», российского разработчика и производителя программно-аппаратных средств …",
+    "link": "https://www.anti-malware.ru/reviews/Rutoken-electronic-signature",
+    "source": "Anti-Malware",
+    "date": "2019-01-22",
+    "category": "ru"
+  },
+  {
+    "id": "17e766f178ec",
+    "title": "Обзор платформы R-Vision IRP 3.1",
+    "summary": "В обзоре рассмотривается платформа R-Vision Incident Response Platform (далее R-Vision IRP 3.1) производства российской компании «Р-Вижн», предназначенная для организации управления и оперативного реагирования на инциденты информационной безопасности.&nbsp;ВведениеАрхитектура …",
+    "link": "https://www.anti-malware.ru/reviews/r-vision-irp-3-1",
+    "source": "Anti-Malware",
+    "date": "2017-11-13",
     "category": "ru"
   }
 ]
