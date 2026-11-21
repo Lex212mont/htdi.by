@@ -41,6 +41,15 @@ Dashboard → **htdi-news** → Settings → Variables (Production + Preview):
 | `update-expert-news.yml` | обновление `expert-news.json` (без Telegram) |
 | `daily-ntdi-news.yml` | legacy TG, только dispatch |
 
+## Заглушка главной (временно)
+
+| Файл | Назначение |
+|------|------------|
+| `index.html` | то, что видят на `https://htdi.by/` |
+| `index.full.html` | полная медиалента (вернуть: `mv index.full.html index.html`) |
+
+После смены: `git push origin main`. Worker и `/api/*` не трогаем.
+
 ## Troubleshooting
 
 - Старые новости → CF не на `htdi.by`: Settings → Builds → Connect `Lex212mont/htdi.by`, branch `main`.
